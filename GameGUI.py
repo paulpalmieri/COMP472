@@ -1,6 +1,7 @@
 import tkinter as tk
 from itertools import product
-
+import random
+import time
 
 class GameGUI():
 
@@ -21,6 +22,13 @@ class GameGUI():
         65361: 'LEFT',
         65363: 'RIGHT',
         65364: 'DOWN'
+    }
+
+    inverse_key_codes = {
+        'UP':65362,
+        'LEFT':65361,
+        'RIGHT':65363,
+        'DOWN':65364
     }
 
     def __init__(self, game):
@@ -76,7 +84,7 @@ class GameGUI():
         last_move_label.pack()
         last_move_text.pack()
 
-        solve_button = tk.Button(frame, text='solve')
+        solve_button = tk.Button(frame, text='button')
         solve_button.pack()
 
         info_list.append(possible_move_text)
@@ -92,12 +100,20 @@ class GameGUI():
             move = GameGUI.key_codes[key_code]
             print('Valid keyboard input ' + str(move))
 
+            valid = False
             # checks if move is allowed
             for position in self.game.get_adjacent_tiles():
                 if position[2] is move:
                     self.update_game_panel(self.game.empty_x, self.game.empty_y, position[0], position[1])
-                    self.game.move(position[0], position[1])
+                    self.game.move(position[3])
                     self.update_side_panel()
+                    print(self.game.move_list)
+                    valid = True
+
+            if not valid:
+                print('Cannot move here')
+
+
         else:
             print('Invalid keyboard input')
 
@@ -123,11 +139,9 @@ class GameGUI():
         last_move = self.game.move_list[-1]
         self.side_panel[1].config(text=last_move)
 
-    def solve(self):
-        pass
+
+
+
 
     def start(self):
         self.root.mainloop()
-
-if __name__ == '__main__':
-    pass

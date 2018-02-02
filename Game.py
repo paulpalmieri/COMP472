@@ -1,5 +1,6 @@
 from itertools import product
 from string import ascii_uppercase as alphabet
+from util import position_dict
 
 class Game:
 
@@ -31,7 +32,8 @@ class Game:
                 return i, j
 
     # swaps the empty tile with an adjacent tile
-    def move(self, x, y):
+    def move(self, tile_letter):
+        x, y = position_dict[tile_letter][0], position_dict[tile_letter][1]
         self.game_board[self.empty_x][self.empty_y] = self.game_board[x][y]
         self.empty_x, self.empty_y = x, y
         self.game_board[x][y] = 'e'
@@ -54,16 +56,16 @@ class Game:
         right = self.empty_y + 1 <= 4
 
         if up:
-            node = [self.empty_x - 1, self.empty_y, 'UP']
+            node = [self.empty_x - 1, self.empty_y, 'UP', Game.position_grid[self.empty_x-1][self.empty_y]]
             adj_list.append(node)
         if down:
-            node = [self.empty_x + 1, self.empty_y, 'DOWN']
+            node = [self.empty_x + 1, self.empty_y, 'DOWN', Game.position_grid[self.empty_x+1][self.empty_y]]
             adj_list.append(node)
         if left:
-            node = [self.empty_x, self.empty_y - 1, 'LEFT']
+            node = [self.empty_x, self.empty_y - 1, 'LEFT', Game.position_grid[self.empty_x][self.empty_y-1]]
             adj_list.append(node)
         if right:
-            node = [self.empty_x, self.empty_y + 1, 'RIGHT']
+            node = [self.empty_x, self.empty_y + 1, 'RIGHT', Game.position_grid[self.empty_x][self.empty_y+1]]
             adj_list.append(node)
 
         return adj_list
@@ -72,11 +74,7 @@ class Game:
         for e in self.game_board:
             print(e)
 
-    # NOT USED gets a list that maps a letter to a pair of indexes relevant to the game grid
-    def get_position_dict(self):
-        position_dict = {}
-        k = 0
-        for i, j in product(range(3), range(5)):
-            position_dict[alphabet[k]] = [i, j]
-            k += 1
-        return position_dict
+if __name__ == '__main__':
+    initial=['r', 'e', 'b', 'w', 'r', 'b', 'b', 'b', 'r', 'r', 'r', 'b', 'r', 'b', 'w']
+
+    g = Game(initial)
