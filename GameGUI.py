@@ -1,55 +1,42 @@
 import tkinter as tk
+from util import KEY_CODES, TYPES
 from itertools import product
-import random
-import time
+from Game import Game
 
 class GameGUI():
 
-    # candy types and colors
-    types = {
-        'r': 'orange',
-        'b': 'pink',
-        'w': 'sienna',
-        'y': 'blue',
-        'g': 'yellow',
-        'p': 'green',
-        'e': 'gray17'
-    }
-
-    # keycodes for user input
-    key_codes = {
-        65362: 'UP',
-        65361: 'LEFT',
-        65363: 'RIGHT',
-        65364: 'DOWN'
-    }
-
-    inverse_key_codes = {
-        'UP':65362,
-        'LEFT':65361,
-        'RIGHT':65363,
-        'DOWN':65364
-    }
-
+    # takes a game instance and a tk.TopLevel obj
     def __init__(self, game):
+
+        # init game
         self.game = game
+
+        # init gui tool
         self.root = tk.Tk()
 
         # create game holder
-        self.game_frame = tk.Frame(self.root, padx=5, pady=5)
+        self.game_frame = tk.Frame(self.root, padx=2, pady=2)
         self.game_frame.pack(side='left', fill='both')
 
-        # create side panel
-        self.side_frame = tk.Frame(self.root, width=200, padx=5, pady=5)
+        # create side panel holder
+        self.side_frame = tk.Frame(self.root, width=250, padx=2, pady=2)
         self.side_frame.pack(side='left', fill='both')
 
+        # prevent sizing issues
         self.game_frame.pack_propagate(False)
         self.side_frame.pack_propagate(False)
 
-        # init game and side panel
-        self.side_panel = self.init_side_panel(self.side_frame)
+        # init text variables for side panel
+        self.possible_moves_text = tk.StringVar()
+        self.last_move_text = tk.StringVar()
+        self.warning_text = tk.StringVar()
+        self.win_text = tk.StringVar()
+
+        # init game board and side panel
+        self.init_side_panel(self.side_frame)
         self.game_grid = self.init_game_grid(self.game_frame)
 
+        # bind key presses to the handler function
         self.root.bind('<Key>', self.on_key_press)
 
     def init_game_grid(self, frame):
@@ -58,64 +45,38 @@ class GameGUI():
 
         # creates a label for each piece and positions them in a grid
         for i, j in product(range(3), range(5)):
-            piece_type = self.game.game_board[i][j]
-            board[i][j] = L = tk.Label(frame, text=piece_type, bg=GameGUI.types[piece_type], height=2, width=4,
+            piece_type = self.game.game_grid[i][j]
+            board[i][j] = L = tk.Label(frame, text=piece_type, bg=TYPES[piece_type], height=2, width=4,
                                        font=("Arial", 40))
             L.grid(row=i, column=j, padx=2, pady=2)
         return board
 
-    # todo: replace displayed text by a global var
     def init_side_panel(self, frame):
-        info_list = []
-
-        # possible moves
-        possible_move_label = tk.Label(frame, text='Possible moves: ', font='Helvetica 14 bold')
-        possible_move_text = tk.Label(frame, text='null')
-        possible_move_label.pack()
-        possible_move_text.pack()
-
-        # space
-        space_label = tk.Label(frame)
-        space_label.pack(side='left')
 
         # last move
         last_move_label = tk.Label(frame, text='Last move: ', font='Helvetica 14 bold')
-        last_move_text = tk.Label(frame, text='null')
+        last_move_text = tk.Label(frame, textvariable=self.last_move_text)
         last_move_label.pack()
         last_move_text.pack()
 
-        solve_button = tk.Button(frame, text='button')
-        solve_button.pack()
+        # possible moves
+        possible_move_label = tk.Label(frame, text='Possible moves: ', font='Helvetica 14 bold')
+        possible_move_text = tk.Label(frame, textvariable=self.possible_moves_text)
+        possible_move_label.pack()
+        possible_move_text.pack()
 
-        info_list.append(possible_move_text)
-        info_list.append(last_move_text)
+        win_label = tk.Label(frame, textvariable=self.win_text, fg='green', font='Helvetica 28 bold')
+        win_label.pack(side=tk.BOTTOM)
 
-        return info_list
+        # warning
+        warning_label = tk.Label(frame, textvariable=self.warning_text, fg='red', font='Helvetica 14 bold')
+        warning_label.pack(side=tk.BOTTOM)
 
-    # event handler
-    def on_key_press(self, event):
-        key_code = event.keysym_num
-
-        if key_code in GameGUI.key_codes:
-            move = GameGUI.key_codes[key_code]
-            print('Valid keyboard input ' + str(move))
-
-            valid = False
-            # checks if move is allowed
-            for position in self.game.get_adjacent_tiles():
-                if position[2] is move:
-                    self.update_game_panel(self.game.empty_x, self.game.empty_y, position[0], position[1])
-                    self.game.move(position[3])
-                    self.update_side_panel()
-                    print(self.game.move_list)
-                    valid = True
-
-            if not valid:
-                print('Cannot move here')
-
-
-        else:
-            print('Invalid keyboard input')
+        # set side panel text
+        self.update_possible_moves()
+        self.last_move_text.set('Make your first move')
+        self.warning_text.set('')
+        self.win_text.set('')
 
     # updates game grid
     def update_game_panel(self, empty_x, empty_y, new_x, new_y):
@@ -131,17 +92,50 @@ class GameGUI():
         empty_cell.config(bg=color, text=text)
         new_cell.config(bg='gray17', text='e')
 
-    # updates side panel
     def update_side_panel(self):
-        possible_moves = [e[2] for e in self.game.get_adjacent_tiles()]
-        self.side_panel[0].config(text=possible_moves)
+        self.update_possible_moves()
+        self.update_last_move()
 
+    def update_possible_moves(self):
+        move_text = ''
+        for e in self.game.get_complete_adjacent_tiles():
+            move_text += e[2] + ' - ' + e[3] + '\n'
+        self.possible_moves_text.set(move_text.rstrip())
+
+    def update_last_move(self):
         last_move = self.game.move_list[-1]
-        self.side_panel[1].config(text=last_move)
-
-
-
-
+        self.last_move_text.set(last_move)
 
     def start(self):
         self.root.mainloop()
+
+    # event handler
+    def on_key_press(self, event):
+
+        # get keycode from event
+        key_code = event.keysym_num
+
+        # check valid keycode
+        if key_code in KEY_CODES:
+
+            # fetch move with table
+            move = KEY_CODES[key_code]
+            # checks if legal move
+            for position in self.game.get_complete_adjacent_tiles():
+                if position[2] is move:
+                    # update game display, state and side panel display
+                    self.update_game_panel(self.game.empty_row, self.game.empty_col, position[0], position[1])
+                    self.game.move(position[3])
+                    self.update_side_panel()
+                    self.warning_text.set('')
+                    if self.game.goal_state_reached():
+                        self.game.write_win_to_file()
+                        self.root.unbind('<Key>')
+                        self.win_text.set("You won!")
+
+                    return
+
+            self.warning_text.set('Illegal move, try again.')
+
+        else:
+            self.warning_text.set('Invalid keyboard input.\nPlease user arrow keys to move.')
