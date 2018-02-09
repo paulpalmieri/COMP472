@@ -1,5 +1,5 @@
 import tkinter as tk
-from util import KEY_CODES, TYPES
+from util import TYPES, KEY_SET
 from itertools import product
 from Game import Game
 
@@ -78,19 +78,12 @@ class GameGUI():
         self.warning_text.set('')
         self.win_text.set('')
 
-    # updates game grid
-    def update_game_panel(self, empty_x, empty_y, new_x, new_y):
-        # get 2 relevant cells
-        empty_cell = self.game_grid[empty_x][empty_y]
-        new_cell = self.game_grid[new_x][new_y]
-
-        # get attributes
-        color = new_cell.cget('bg')
-        text = new_cell.cget('text')
-
-        # swap cells
-        empty_cell.config(bg=color, text=text)
-        new_cell.config(bg='gray17', text='e')
+    def update_game_panel(self):
+        print('updating gp')
+        for i,j in product(range(3), range(5)):
+            if(self.game_grid[i][j].cget('text') != self.game.game_grid[i][j]):
+                self.game_grid[i][j].config(text=self.game.game_grid[i][j])
+                self.game_grid[i][j].config(bg=TYPES[self.game.game_grid[i][j]])
 
     def update_side_panel(self):
         self.update_possible_moves()
@@ -98,8 +91,8 @@ class GameGUI():
 
     def update_possible_moves(self):
         move_text = ''
-        for e in self.game.get_complete_adjacent_tiles():
-            move_text += e[2] + ' - ' + e[3] + '\n'
+        for e in self.game.possible_moves:
+            move_text += e + '\n'
         self.possible_moves_text.set(move_text.rstrip())
 
     def update_last_move(self):
@@ -114,28 +107,28 @@ class GameGUI():
 
         # get keycode from event
         key_code = event.keysym_num
+        print('User input keycode: ' + key_code)
 
-        # check valid keycode
-        if key_code in KEY_CODES:
+        # check valid input
+        if key_code in KEY_SET:
 
             # fetch move with table
-            move = KEY_CODES[key_code]
-            # checks if legal move
-            for position in self.game.get_complete_adjacent_tiles():
-                if position[2] is move:
-                    # update game display, state and side panel display
-                    self.update_game_panel(self.game.empty_row, self.game.empty_col, position[0], position[1])
-                    self.game.move(position[3])
-                    self.update_side_panel()
-                    self.warning_text.set('')
-                    if self.game.goal_state_reached():
-                        self.game.write_win_to_file()
-                        self.root.unbind('<Key>')
-                        self.win_text.set("You won!")
+            move = KEY_SET[key_code]
+            print('User input move: ' + move)
+            if move in self.game.possible_moves:
+                self.game.move(move)
+                self.update_game_panel()
+                self.update_side_panel()
+                self.warning_text.set('')
 
-                    return
+                if self.game.goal_state_reached():
+                    self.game.write_win_to_file()
+                    self.root.unbind('<Key>')
+                    self.win_text.set("You won!")
+
+                return
 
             self.warning_text.set('Illegal move, try again.')
 
         else:
-            self.warning_text.set('Invalid keyboard input.\nPlease user arrow keys to move.')
+            self.warning_text.set('Invalid keyboard input.\nPlease input letters from A to O')
