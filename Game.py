@@ -1,22 +1,21 @@
 from itertools import product
-from string import ascii_uppercase as alphabet
-from util import position_dict
+from util import letter_to_index_map, letter_list, OUTPUT_PATH
+import time
 
 class Game:
 
-    # 2D array of uppercase letters, same for all instances
-    position_grid = [list(alphabet[0:5]), list(alphabet[5:10]), list(alphabet[10:15])]
     rows, cols = 3, 5
 
     def __init__(self, initial_config):
-        # init game grid
-        self.game_board = self.init_game_board(initial_config)
 
-        # init empty tile coordinates
-        self.empty_x, self.empty_y = self.init_empty_tile()
+        # 2D array representing the game board
+        self.game_grid = self.init_game_board(initial_config)
+
+        # holds the letter identifier of the empty tile
+        self.empty_row, self.empty_col, self.empty_tile = self.init_empty_tile()
         self.move_list = []
 
-    # gets game board as 2D array
+    # creates a 2d array and fills the board
     def init_game_board(self, initial_config):
         board = [[None] * Game.cols for _ in range(Game.rows)]
         k = 0
@@ -28,53 +27,68 @@ class Game:
     # returns an uppercase letter indicating the position of the empty tile
     def init_empty_tile(self):
         for i, j in product(range(Game.rows), range(Game.cols)):
-            if(self.game_board[i][j] == 'e'):
-                return i, j
+            if(self.game_grid[i][j] == 'e'):
+                return i, j, letter_list[i][j]
 
-    # swaps the empty tile with an adjacent tile
+    # attempts to make a move
     def move(self, tile_letter):
-        x, y = position_dict[tile_letter][0], position_dict[tile_letter][1]
-        self.game_board[self.empty_x][self.empty_y] = self.game_board[x][y]
-        self.empty_x, self.empty_y = x, y
-        self.game_board[x][y] = 'e'
-        self.move_list.append(Game.position_grid[x][y])
+            # get row and col for the tile that needs to move
+            tile_row = letter_to_index_map[tile_letter][0]
+            tile_col = letter_to_index_map[tile_letter][1]
+
+            # swap with empty tile
+            self.swap(tile_row, tile_col, self.empty_row, self.empty_col)
+
+            # update empty tile
+            self.empty_row = tile_row
+            self.empty_col = tile_col
+            self.empty_tile = tile_letter
+
+            self.move_list.append(tile_letter)
+
+    # swaps two tiles
+    def swap(self, tile_row, tile_col, empty_row, empty_col):
+        self.game_grid[empty_row][empty_col] = self.game_grid[tile_row][tile_col]
+        self.game_grid[tile_row][tile_col] = 'e'
 
     # checks for symmetry on first and last row
     def goal_state_reached(self):
         for i in range(self.cols):
-            if(self.game_board[0][i] != self.game_board[2][i]):
+            if(self.game_grid[0][i] != self.game_grid[2][i]):
                 return False
         return True
 
-    # checks adjacent tiles coordinates
-    #todo: can make the list smaller if needed
-    def get_adjacent_tiles(self):
+    # write winning move list to file
+    def write_win_to_file(self):
+        time_stamp = time.strftime("%Y-%m-%d-%H:%M:%S")
+        file_name = OUTPUT_PATH + "cc_" + time_stamp + ".txt"
+        with open(file_name, 'w') as f:
+            f.write("moves:\n")
+            f.write("".join(self.move_list))
+
+    # get legal moves for this game at this state
+    def get_complete_adjacent_tiles(self):
         adj_list = []
-        up = self.empty_x - 1 >= 0
-        down = self.empty_x + 1 <= 2
-        left = self.empty_y - 1 >= 0
-        right = self.empty_y + 1 <= 4
+        up = self.empty_row - 1 >= 0
+        down = self.empty_row + 1 <= 2
+        left = self.empty_col - 1 >= 0
+        right = self.empty_col + 1 <= 4
 
         if up:
-            node = [self.empty_x - 1, self.empty_y, 'UP', Game.position_grid[self.empty_x-1][self.empty_y]]
+            node = [self.empty_row - 1, self.empty_col, 'UP', letter_list[self.empty_row - 1][self.empty_col]]
             adj_list.append(node)
         if down:
-            node = [self.empty_x + 1, self.empty_y, 'DOWN', Game.position_grid[self.empty_x+1][self.empty_y]]
+            node = [self.empty_row + 1, self.empty_col, 'DOWN', letter_list[self.empty_row + 1][self.empty_col]]
             adj_list.append(node)
         if left:
-            node = [self.empty_x, self.empty_y - 1, 'LEFT', Game.position_grid[self.empty_x][self.empty_y-1]]
+            node = [self.empty_row, self.empty_col - 1, 'LEFT', letter_list[self.empty_row][self.empty_col - 1]]
             adj_list.append(node)
         if right:
-            node = [self.empty_x, self.empty_y + 1, 'RIGHT', Game.position_grid[self.empty_x][self.empty_y+1]]
+            node = [self.empty_row, self.empty_col + 1, 'RIGHT', letter_list[self.empty_row][self.empty_col + 1]]
             adj_list.append(node)
 
         return adj_list
 
     def display_board(self):
-        for e in self.game_board:
+        for e in self.game_grid:
             print(e)
-
-if __name__ == '__main__':
-    initial=['r', 'e', 'b', 'w', 'r', 'b', 'b', 'b', 'r', 'r', 'r', 'b', 'r', 'b', 'w']
-
-    g = Game(initial)
