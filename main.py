@@ -3,8 +3,7 @@ from Game import Game
 from util import load_single_game
 import argparse
 
-default_manual_play = 'input/manual_input.txt'
-default_auto_play = 'input/auto_input.txt'
+default_input = 'input/input.txt'
 
 if __name__ == '__main__':
 
@@ -33,9 +32,7 @@ if __name__ == '__main__':
             grid = load_single_game(args.file)
         else:
             print('No file has been specified, loading default input file for manual play.')
-            grid = load_single_game(default_manual_play)
-            grid2 = load_single_game(default_manual_play)
-
+            grid = load_single_game(default_input)
 
         game = Game(grid)
         gui = GameGUI(game)

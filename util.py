@@ -13,11 +13,29 @@ TYPES = {
 }
 
 # key codes for user input
-KEY_CODES = {
-    65362: 'UP',
-    65361: 'LEFT',
-    65363: 'RIGHT',
-    65364: 'DOWN'
+# KEY_CODES = {
+#     65362: 'UP',
+#     65361: 'LEFT',
+#     65363: 'RIGHT',
+#     65364: 'DOWN'
+# }
+
+KEY_SET = {
+    97: 'A',
+    98: 'B',
+    99: 'C',
+    100: 'D',
+    101: 'E',
+    102: 'F',
+    103: 'G',
+    104: 'H',
+    105: 'I',
+    106: 'J',
+    107: 'K',
+    108: 'L',
+    109: 'M',
+    110: 'N',
+    111: 'O'
 }
 
 OUTPUT_PATH = "output/"
