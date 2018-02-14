@@ -107,7 +107,7 @@ class GameGUI():
 
         # get keycode from event
         key_code = event.keysym_num
-        print('User input keycode: ' + key_code)
+        print('User input keycode: ' + str(key_code))
 
         # check valid input
         if key_code in KEY_SET:
