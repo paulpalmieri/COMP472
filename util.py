@@ -58,5 +58,6 @@ def load_single_game(file_name):
     with open(file_name) as f:
         return f.readline().split()
 
+
 letter_to_index_map = get_letter_to_index_map()
 letter_list = get_index_to_letter_list()

@@ -66,7 +66,7 @@ class Game:
 
     # write winning move list to file
     def write_win_to_file(self):
-        time_stamp = time.strftime("%Y-%m-%d-%H:%M:%S")
+        time_stamp = time.strftime("%Y-%m-%d_%H-%M-%S")
         file_name = OUTPUT_PATH + "cc_" + time_stamp + ".txt"
         with open(file_name, 'w') as f:
             f.write("moves:\t" + "".join(self.move_list))

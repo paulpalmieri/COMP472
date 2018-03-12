@@ -24,8 +24,8 @@ def matching(node):
 def manhattan_distance(node):
     value = 0
     if node.empty_index < 5:
-        print("top")
-    else:
         print("bottom")
+    else:
+        print("top")
 
     return value
