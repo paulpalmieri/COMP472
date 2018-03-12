@@ -1,6 +1,8 @@
 from GameGUI import GameGUI
 from Game import Game
 from util import load_single_game
+from Heuristics import *
+from automatic_solve import solve
 import argparse
 
 default_input = 'input/input.txt'
@@ -19,8 +21,14 @@ if __name__ == '__main__':
 
         if args.file:
             print('A file has been specified.')
+            file_name = args.file
         else:
             print('No file has been specified, loading default input file for auto play.')
+            file_name = default_input
+
+        heuristic = Strategy(matching)
+        solve(file_name, heuristic)
+
 
 
     # MANUAL MODE
