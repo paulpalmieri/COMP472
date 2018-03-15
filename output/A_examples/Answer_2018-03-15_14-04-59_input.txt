@@ -1,0 +1,246 @@
+Puzzle 1 answer:
+
+r e b w r
+b b b r r
+r b r b w
+
+r b b w r
+b e b r r
+r b r b w
+
+r b b w r
+b b e r r
+r b r b w
+
+r b b w r
+b b r r r
+r b e b w
+
+r b b w r
+b b r r r
+r b b e w
+
+r b b w r
+b b r r r
+r b b w e
+
+r b b w r
+b b r r e
+r b b w r
+
+Puzzle 2 answer:
+
+e r r r r
+r y y y y
+r r r r r
+
+r r r r r
+e y y y y
+r r r r r
+
+Puzzle 3 answer:
+
+b r b w w
+r r b b b
+b r e r r
+
+b r b w w
+r r b b b
+b r r e r
+
+b r b w w
+r r b e b
+b r r b r
+
+b r b e w
+r r b w b
+b r r b r
+
+b r b w e
+r r b w b
+b r r b r
+
+b r b w b
+r r b w e
+b r r b r
+
+b r b w b
+r r b w r
+b r r b e
+
+b r b w b
+r r b w r
+b r r e b
+
+b r b w b
+r r b e r
+b r r w b
+
+b r b w b
+r r e b r
+b r r w b
+
+b r e w b
+r r b b r
+b r r w b
+
+b e r w b
+r r b b r
+b r r w b
+
+b r r w b
+r e b b r
+b r r w b
+
+Puzzle 4 answer:
+
+r r b b r
+w b r r r
+w b e b b
+
+r r b b r
+w b e r r
+w b r b b
+
+r r b b r
+w e b r r
+w b r b b
+
+r e b b r
+w r b r r
+w b r b b
+
+e r b b r
+w r b r r
+w b r b b
+
+w r b b r
+e r b r r
+w b r b b
+
+w r b b r
+r e b r r
+w b r b b
+
+w r b b r
+r b b r r
+w e r b b
+
+w r b b r
+r b b r r
+w r e b b
+
+w r b b r
+r b b r r
+w r b e b
+
+w r b b r
+r b b r r
+w r b b e
+
+w r b b r
+r b b r e
+w r b b r
+
+Puzzle 5 answer:
+
+r r r r b
+b w w y y
+g g p p e
+
+r r r r b
+b w w y e
+g g p p y
+
+r r r r b
+b w w e y
+g g p p y
+
+r r r e b
+b w w r y
+g g p p y
+
+r r r b e
+b w w r y
+g g p p y
+
+r r r b y
+b w w r e
+g g p p y
+
+r r r b y
+b w w e r
+g g p p y
+
+r r r b y
+b w w p r
+g g p e y
+
+r r r b y
+b w w p r
+g g e p y
+
+r r r b y
+b w e p r
+g g w p y
+
+r r e b y
+b w r p r
+g g w p y
+
+r r b e y
+b w r p r
+g g w p y
+
+r r b p y
+b w r e r
+g g w p y
+
+r r b p y
+b w e r r
+g g w p y
+
+r r b p y
+b e w r r
+g g w p y
+
+r e b p y
+b r w r r
+g g w p y
+
+r b e p y
+b r w r r
+g g w p y
+
+r b w p y
+b r e r r
+g g w p y
+
+r b w p y
+b e r r r
+g g w p y
+
+r b w p y
+b g r r r
+g e w p y
+
+r b w p y
+b g r r r
+e g w p y
+
+r b w p y
+e g r r r
+b g w p y
+
+e b w p y
+r g r r r
+b g w p y
+
+b e w p y
+r g r r r
+b g w p y
+
+b g w p y
+r e r r r
+b g w p y
+

@@ -22,8 +22,9 @@ char_map = {
 def solve(file_name, strategy):
 
     time_stamp = time.strftime("%Y-%m-%d_%H-%M-%S")
-    output_file = "output/Solution_" + time_stamp + ".txt"
-    solver = BFS(strategy)
+    output_file = "output/Solution_" + time_stamp + "_" + file_name[6:]
+    answer_file = "output/Answer_" + time_stamp + "_" + file_name[6:]
+    solver = ASearch(strategy)
     total_moves = 0
     total_time = 0
     puzzle_counter = 0
@@ -42,17 +43,16 @@ def solve(file_name, strategy):
             solve_time= time.time() - start_time
             total_time += solve_time
 
-            print("Puzzle {} took {} ms".format(puzzle_counter, solve_time))
-            initial_node.print()
-            print("\n")
-            with open ("output/solutions.txt", 'a') as s:
+            print("Puzzle {} solved".format(puzzle_counter))
+            with open (output_file, 'a') as s, open (answer_file, 'a') as a:
+                a.write("Puzzle {} answer:\n\n".format(puzzle_counter))
+                a.write(initial_node.print() + "\n\n")
                 s.write(initial_node.state)
                 s.write("\nSolution = ")
-                for state in path:
-                    s.write(char_map[state.previous_move][0])
+                for node in path:
+                    s.write(char_map[node.previous_move][0])
                     total_moves += 1
-                    state.print()
-                    print("\n")
+                    a.write(node.print()+"\n\n")
                 s.write("\nTime to solve: {:.5f}".format(solve_time))
                 s.write("\n\n")
 
@@ -63,11 +63,11 @@ def parse(file_line):
     initial_state = file_line.rstrip().replace(" ","")
     empty_index = initial_state.find('e')
 
-    return Node(initial_state,empty_index)
+    return Node(initial_state, empty_index, 0)
 
 
 
-class BFS():
+class ASearch():
 
     def __init__(self, strategy):
         self.heuristic = strategy
@@ -94,7 +94,7 @@ class BFS():
                     if child in closed_set or child in open_set:
                         continue
                     #run heuristic and add to open list
-                    key = self.heuristic.analyze(child)
+                    key = self.heuristic.analyze(child) #+ child.path_length
                     print("--Debug: Adding to open list with key " + str(key))
                     open_heap.push(key, child)
                     open_set.add(child)
@@ -102,7 +102,7 @@ class BFS():
             else:
                 #build path in reverse, does not include root
                 while node.previous_node is not None:
-                    path.insert(0,node)
+                    path.insert(0, node)
                     node = node.previous_node
                 break
 
@@ -134,12 +134,12 @@ class Node():
         14: (2, 4)
     }
 
-    def __init__(self, initial_state, empty_index, previous_node = None):
+    def __init__(self, initial_state, empty_index, path_length, previous_node = None):
         self.state = str(initial_state)
         self.empty_index = empty_index
+        self.path_length = path_length
         self.previous_node = previous_node
         self.previous_move = empty_index
-
 
     def __hash__(self):
         return hash(self.state)
@@ -156,8 +156,6 @@ class Node():
         for i in range(Node.COLS):
             if (self.state[i] != self.state[i+(2*Node.COLS)]):
                 return False
-
-        print("***************Solved******************")
 
         return True
 
@@ -196,10 +194,9 @@ class Node():
         string_copy = [character for character in self.state]
         string_copy[self.empty_index], string_copy[move_index] = string_copy[move_index], 'e'
 
-        return Node("".join(string_copy), move_index, self)
+        return Node("".join(string_copy), move_index, (self.path_length + 1), self)
 
     def print(self):
 
-        print(self.state[:5])
-        print(self.state[5:10])
-        print(self.state[10:])
+        return " ".join(self.state[:5]) + "\n" + " ".join(self.state[5:10]) + "\n" + " ".join(self.state[10:])
+

@@ -1,0 +1,123 @@
+rrbbrggrbeybwyw
+Solution = INMLGBAFKLGHINOJEDI
+Time to solve: 9.78040
+
+gbbgyreywrbrrbw
+Solution = FABGHCDIJEDIHCDI
+Time to solve: 2.20377
+
+wbrbwybgrrrygbe
+Solution = NIJEDCBAFKLGBCH
+Time to solve: 0.74111
+
+wrbrrbybrwgbyge
+Solution = NIJONIDCBAFKLMNIDCBG
+Time to solve: 12.84918
+
+yrbrwegbbrrbwyg
+Solution = ABCHINMHIJONI
+Time to solve: 0.24963
+
+grybebywwbrrgrb
+Solution = DINMLGFABCDINMH
+Time to solve: 1.12500
+
+gyywrrwbgebrbrb
+Solution = ONIHGBAFKLGBCDINMH
+Time to solve: 5.54596
+
+brbybwrgrwbeygr
+Solution = GHIDCHIJEDCHINOJ
+Time to solve: 2.48312
+
+weyrgbywrbgrrbb
+Solution = CDEJONMLGHMLGFKLMHIDCH
+Time to solve: 47.81720
+
+ybbbrrwrygwbger
+Solution = MHCBGFABCDEJONMH
+Time to solve: 2.64091
+
+ewgrbbywbrbygrr
+Solution = FGLMNIHGBCDEJ
+Time to solve: 0.28128
+
+wrgbrybbgyrbewr
+Solution = LKFABGFKLMHINMH
+Time to solve: 1.17846
+
+brbgyybgrrrwbwe
+Solution = NMLGFABCDINMHINOJEDI
+Time to solve: 18.42317
+
+wrrgybrgrebwybb
+Solution = ONMHCDEJIHGBAF
+Time to solve: 0.43752
+
+wyrbbbrrrbggywe
+Solution = JIHMNIDCBGFKLMHGBAF
+Time to solve: 8.03817
+
+gregwbrywbyrbbr
+Solution = HGBCDEJONIHGFABGHCBG
+Time to solve: 21.13289
+
+brbbrggywberwyr
+Solution = LGFABGHCDINMH
+Time to solve: 0.29690
+
+wgbeyrrrybgbbwr
+Solution = IJEDIHGFABCDINOJ
+Time to solve: 1.78144
+
+wgybrbrbrwyberg
+Solution = HIJONMHGBCHGFABG
+Time to solve: 1.82832
+
+bgrbrerywgybrwb
+Solution = KLMHCBGHIJEDCHMNI
+Time to solve: 3.72615
+
+gyybwbrbrrbegrw
+Solution = MHCDIHGBAF
+Time to solve: 0.04688
+
+rergrrywygbbbwb
+Solution = GLMHINOJEDINMHCBGLKF
+Time to solve: 17.19729
+
+rwryrgbygebrbwb
+Solution = IHCBGFKLMNIHMNIJONMH
+Time to solve: 20.49998
+
+rrrrbgbebywwybg
+Solution = IJONMHCBGLMHCBGFABCDI
+Time to solve: 32.73431
+
+rgwyrrybbwgbber
+Solution = MLGHCDIHMLKF
+Time to solve: 0.13560
+
+rbbgyrwwgbryber
+Solution = IJONIJEDCHGLMH
+Time to solve: 0.73493
+
+ewybbrgrrwgrbby
+Solution = FGBCHIJONMHGBAF
+Time to solve: 0.94462
+
+rgygybwwbbbrrre
+Solution = NIDEJONIDCBAFGHMNI
+Time to solve: 4.88506
+
+rwbgbbyebrwrgry
+Solution = GFKLGBCDEJONI
+Time to solve: 0.28128
+
+brwbbrrgwybyger
+Solution = MLGHINMHIDEJONI
+Time to solve: 1.34321
+
+
+Total Time: 221.36372
+Total Moves: 491

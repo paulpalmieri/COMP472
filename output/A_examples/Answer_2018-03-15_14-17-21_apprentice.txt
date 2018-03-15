@@ -1,0 +1,3056 @@
+Puzzle 1 answer:
+
+w b w b r
+y r b r r
+r e y r b
+
+w b w b r
+y r b r r
+r y e r b
+
+w b w b r
+y r e r r
+r y b r b
+
+w b e b r
+y r w r r
+r y b r b
+
+w e b b r
+y r w r r
+r y b r b
+
+w r b b r
+y e w r r
+r y b r b
+
+w r b b r
+e y w r r
+r y b r b
+
+e r b b r
+w y w r r
+r y b r b
+
+r e b b r
+w y w r r
+r y b r b
+
+r y b b r
+w e w r r
+r y b r b
+
+r y b b r
+w w e r r
+r y b r b
+
+r y b b r
+w w r e r
+r y b r b
+
+r y b b r
+w w r r r
+r y b e b
+
+r y b b r
+w w r r r
+r y b b e
+
+r y b b r
+w w r r e
+r y b b r
+
+Puzzle 2 answer:
+
+b r r r r
+w y b b r
+e r y b w
+
+b r r r r
+e y b b r
+w r y b w
+
+e r r r r
+b y b b r
+w r y b w
+
+r e r r r
+b y b b r
+w r y b w
+
+r y r r r
+b e b b r
+w r y b w
+
+r y r r r
+e b b b r
+w r y b w
+
+r y r r r
+w b b b r
+e r y b w
+
+r y r r r
+w b b b r
+r e y b w
+
+r y r r r
+w b b b r
+r y e b w
+
+r y r r r
+w b b b r
+r y b e w
+
+r y r r r
+w b b b r
+r y b w e
+
+r y r r r
+w b b b e
+r y b w r
+
+r y r r e
+w b b b r
+r y b w r
+
+r y r e r
+w b b b r
+r y b w r
+
+r y e r r
+w b b b r
+r y b w r
+
+r y b r r
+w b e b r
+r y b w r
+
+r y b r r
+w b b e r
+r y b w r
+
+r y b r r
+w b b w r
+r y b e r
+
+r y b r r
+w b b w r
+r y b r e
+
+r y b r r
+w b b w e
+r y b r r
+
+Puzzle 3 answer:
+
+r e b b b
+y r w r r
+r w y r b
+
+r r b b b
+y e w r r
+r w y r b
+
+r r b b b
+y w e r r
+r w y r b
+
+r r b b b
+y w r e r
+r w y r b
+
+r r b e b
+y w r b r
+r w y r b
+
+r r e b b
+y w r b r
+r w y r b
+
+r e r b b
+y w r b r
+r w y r b
+
+r w r b b
+y e r b r
+r w y r b
+
+r w r b b
+y r e b r
+r w y r b
+
+r w r b b
+y r y b r
+r w e r b
+
+r w r b b
+y r y b r
+r w r e b
+
+r w r b b
+y r y e r
+r w r b b
+
+Puzzle 4 answer:
+
+r b r r y
+b b b r r
+w w r e y
+
+r b r r y
+b b b e r
+w w r r y
+
+r b r r y
+b b e b r
+w w r r y
+
+r b r r y
+b e b b r
+w w r r y
+
+r b r r y
+b w b b r
+w e r r y
+
+r b r r y
+b w b b r
+e w r r y
+
+r b r r y
+e w b b r
+b w r r y
+
+e b r r y
+r w b b r
+b w r r y
+
+b e r r y
+r w b b r
+b w r r y
+
+b w r r y
+r e b b r
+b w r r y
+
+Puzzle 5 answer:
+
+r r b b y
+w r r r w
+y b e b r
+
+r r b b y
+w r r r w
+y e b b r
+
+r r b b y
+w e r r w
+y r b b r
+
+r e b b y
+w r r r w
+y r b b r
+
+r b e b y
+w r r r w
+y r b b r
+
+r b b e y
+w r r r w
+y r b b r
+
+r b b r y
+w r r e w
+y r b b r
+
+r b b r y
+w r r w e
+y r b b r
+
+r b b r e
+w r r w y
+y r b b r
+
+r b b e r
+w r r w y
+y r b b r
+
+r b e b r
+w r r w y
+y r b b r
+
+r b r b r
+w r e w y
+y r b b r
+
+r b r b r
+w e r w y
+y r b b r
+
+r b r b r
+e w r w y
+y r b b r
+
+r b r b r
+y w r w y
+e r b b r
+
+r b r b r
+y w r w y
+r e b b r
+
+r b r b r
+y w r w y
+r b e b r
+
+r b r b r
+y w e w y
+r b r b r
+
+Puzzle 6 answer:
+
+y w w b y
+r r r e b
+b b r r r
+
+y w w b y
+r r r r b
+b b r e r
+
+y w w b y
+r r r r b
+b b r r e
+
+y w w b y
+r r r r e
+b b r r b
+
+y w w b e
+r r r r y
+b b r r b
+
+y w w e b
+r r r r y
+b b r r b
+
+y w w r b
+r r r e y
+b b r r b
+
+y w w r b
+r r e r y
+b b r r b
+
+y w e r b
+r r w r y
+b b r r b
+
+y e w r b
+r r w r y
+b b r r b
+
+e y w r b
+r r w r y
+b b r r b
+
+r y w r b
+e r w r y
+b b r r b
+
+r y w r b
+b r w r y
+e b r r b
+
+r y w r b
+b r w r y
+b e r r b
+
+r y w r b
+b r w r y
+b r e r b
+
+r y w r b
+b r e r y
+b r w r b
+
+r y w r b
+b e r r y
+b r w r b
+
+r e w r b
+b y r r y
+b r w r b
+
+e r w r b
+b y r r y
+b r w r b
+
+b r w r b
+e y r r y
+b r w r b
+
+Puzzle 7 answer:
+
+b r r b r
+r r y w b
+r e y b w
+
+b r r b r
+r e y w b
+r r y b w
+
+b r r b r
+e r y w b
+r r y b w
+
+e r r b r
+b r y w b
+r r y b w
+
+r e r b r
+b r y w b
+r r y b w
+
+r r e b r
+b r y w b
+r r y b w
+
+r r b e r
+b r y w b
+r r y b w
+
+r r b w r
+b r y e b
+r r y b w
+
+r r b w r
+b r y b e
+r r y b w
+
+r r b w e
+b r y b r
+r r y b w
+
+r r b e w
+b r y b r
+r r y b w
+
+r r e b w
+b r y b r
+r r y b w
+
+r r y b w
+b r e b r
+r r y b w
+
+Puzzle 8 answer:
+
+w y r b r
+r w r e b
+b y b r r
+
+w y r b r
+r w r r b
+b y b e r
+
+w y r b r
+r w r r b
+b y e b r
+
+w y r b r
+r w r r b
+b e y b r
+
+w y r b r
+r e r r b
+b w y b r
+
+w y r b r
+e r r r b
+b w y b r
+
+w y r b r
+b r r r b
+e w y b r
+
+w y r b r
+b r r r b
+w e y b r
+
+w y r b r
+b r r r b
+w y e b r
+
+w y r b r
+b r e r b
+w y r b r
+
+Puzzle 9 answer:
+
+b r b r b
+r w e r r
+r y b y w
+
+b r e r b
+r w b r r
+r y b y w
+
+b e r r b
+r w b r r
+r y b y w
+
+e b r r b
+r w b r r
+r y b y w
+
+r b r r b
+e w b r r
+r y b y w
+
+r b r r b
+w e b r r
+r y b y w
+
+r b r r b
+w y b r r
+r e b y w
+
+r b r r b
+w y b r r
+r b e y w
+
+r b r r b
+w y b r r
+r b y e w
+
+r b r r b
+w y b e r
+r b y r w
+
+r b r r b
+w y e b r
+r b y r w
+
+r b r r b
+w y y b r
+r b e r w
+
+r b r r b
+w y y b r
+r b r e w
+
+r b r r b
+w y y e r
+r b r b w
+
+r b r r b
+w y y r e
+r b r b w
+
+r b r r b
+w y y r w
+r b r b e
+
+r b r r b
+w y y r w
+r b r e b
+
+r b r r b
+w y y e w
+r b r r b
+
+Puzzle 10 answer:
+
+b e b r b
+b r w y r
+w r y r r
+
+b r b r b
+b e w y r
+w r y r r
+
+b r b r b
+b w e y r
+w r y r r
+
+b r e r b
+b w b y r
+w r y r r
+
+b e r r b
+b w b y r
+w r y r r
+
+b w r r b
+b e b y r
+w r y r r
+
+b w r r b
+b r b y r
+w e y r r
+
+b w r r b
+b r b y r
+e w y r r
+
+b w r r b
+e r b y r
+b w y r r
+
+b w r r b
+r e b y r
+b w y r r
+
+b w r r b
+r b e y r
+b w y r r
+
+b w r r b
+r b y e r
+b w y r r
+
+b w r r b
+r b y r e
+b w y r r
+
+b w r r e
+r b y r b
+b w y r r
+
+b w r e r
+r b y r b
+b w y r r
+
+b w e r r
+r b y r b
+b w y r r
+
+b w y r r
+r b e r b
+b w y r r
+
+Puzzle 11 answer:
+
+b r w y r
+r b b y w
+e r r r b
+
+b r w y r
+r b b y w
+r e r r b
+
+b r w y r
+r e b y w
+r b r r b
+
+b r w y r
+r b e y w
+r b r r b
+
+b r w y r
+r b y e w
+r b r r b
+
+b r w y r
+r b y w e
+r b r r b
+
+b r w y r
+r b y w b
+r b r r e
+
+b r w y r
+r b y w b
+r b r e r
+
+b r w y r
+r b y e b
+r b r w r
+
+b r w e r
+r b y y b
+r b r w r
+
+b r e w r
+r b y y b
+r b r w r
+
+b e r w r
+r b y y b
+r b r w r
+
+e b r w r
+r b y y b
+r b r w r
+
+r b r w r
+e b y y b
+r b r w r
+
+Puzzle 12 answer:
+
+r y e w w
+r b b r b
+r b y r r
+
+r y w e w
+r b b r b
+r b y r r
+
+r y w r w
+r b b e b
+r b y r r
+
+r y w r w
+r b b b e
+r b y r r
+
+r y w r e
+r b b b w
+r b y r r
+
+r y w e r
+r b b b w
+r b y r r
+
+r y e w r
+r b b b w
+r b y r r
+
+r e y w r
+r b b b w
+r b y r r
+
+r b y w r
+r e b b w
+r b y r r
+
+r b y w r
+r b e b w
+r b y r r
+
+r b y w r
+r b b e w
+r b y r r
+
+r b y w r
+r b b w e
+r b y r r
+
+r b y w r
+r b b w r
+r b y r e
+
+r b y w r
+r b b w r
+r b y e r
+
+r b y w r
+r b b e r
+r b y w r
+
+Puzzle 13 answer:
+
+b w b y e
+r y b w r
+r r b r r
+
+b w b y r
+r y b w e
+r r b r r
+
+b w b y r
+r y b e w
+r r b r r
+
+b w b y r
+r y e b w
+r r b r r
+
+b w b y r
+r e y b w
+r r b r r
+
+b e b y r
+r w y b w
+r r b r r
+
+e b b y r
+r w y b w
+r r b r r
+
+r b b y r
+e w y b w
+r r b r r
+
+r b b y r
+w e y b w
+r r b r r
+
+r b b y r
+w r y b w
+r e b r r
+
+r b b y r
+w r y b w
+r b e r r
+
+r b b y r
+w r e b w
+r b y r r
+
+r b b y r
+w r b e w
+r b y r r
+
+r b b y r
+w r b r w
+r b y e r
+
+r b b y r
+w r b r w
+r b e y r
+
+r b b y r
+w r e r w
+r b b y r
+
+Puzzle 14 answer:
+
+y b r r w
+b r r e r
+b y r b w
+
+y b r r w
+b r r b r
+b y r e w
+
+y b r r w
+b r r b r
+b y e r w
+
+y b r r w
+b r e b r
+b y r r w
+
+y b r r w
+b e r b r
+b y r r w
+
+y e r r w
+b b r b r
+b y r r w
+
+e y r r w
+b b r b r
+b y r r w
+
+b y r r w
+e b r b r
+b y r r w
+
+Puzzle 15 answer:
+
+r y r r y
+b b b r w
+r r w b e
+
+r y r r y
+b b b r w
+r r w e b
+
+r y r r y
+b b b e w
+r r w r b
+
+r y r r y
+b b b w e
+r r w r b
+
+r y r r e
+b b b w y
+r r w r b
+
+r y r e r
+b b b w y
+r r w r b
+
+r y r w r
+b b b e y
+r r w r b
+
+r y r w r
+b b b y e
+r r w r b
+
+r y r w r
+b b b y b
+r r w r e
+
+r y r w r
+b b b y b
+r r w e r
+
+r y r w r
+b b b y b
+r r e w r
+
+r y r w r
+b b e y b
+r r b w r
+
+r y r w r
+b e b y b
+r r b w r
+
+r e r w r
+b y b y b
+r r b w r
+
+r r e w r
+b y b y b
+r r b w r
+
+r r b w r
+b y e y b
+r r b w r
+
+Puzzle 16 answer:
+
+r r b y r
+r r r w w
+e b b b y
+
+r r b y r
+e r r w w
+r b b b y
+
+r r b y r
+r e r w w
+r b b b y
+
+r r b y r
+r b r w w
+r e b b y
+
+r r b y r
+r b r w w
+r b e b y
+
+r r b y r
+r b e w w
+r b r b y
+
+r r b y r
+r b w e w
+r b r b y
+
+r r b y r
+r b w w e
+r b r b y
+
+r r b y e
+r b w w r
+r b r b y
+
+r r b e y
+r b w w r
+r b r b y
+
+r r e b y
+r b w w r
+r b r b y
+
+r e r b y
+r b w w r
+r b r b y
+
+r b r b y
+r e w w r
+r b r b y
+
+Puzzle 17 answer:
+
+r r r w y
+b e r r b
+b w y b r
+
+r e r w y
+b r r r b
+b w y b r
+
+r r e w y
+b r r r b
+b w y b r
+
+r r w e y
+b r r r b
+b w y b r
+
+r r w y e
+b r r r b
+b w y b r
+
+r r w y b
+b r r r e
+b w y b r
+
+r r w y b
+b r r r r
+b w y b e
+
+r r w y b
+b r r r r
+b w y e b
+
+r r w y b
+b r r r r
+b w e y b
+
+r r w y b
+b r r r r
+b e w y b
+
+r r w y b
+b e r r r
+b r w y b
+
+r e w y b
+b r r r r
+b r w y b
+
+e r w y b
+b r r r r
+b r w y b
+
+b r w y b
+e r r r r
+b r w y b
+
+Puzzle 18 answer:
+
+b r y r b
+r e b w r
+y r b r w
+
+b r y r b
+r r b w r
+y e b r w
+
+b r y r b
+r r b w r
+e y b r w
+
+b r y r b
+e r b w r
+r y b r w
+
+e r y r b
+b r b w r
+r y b r w
+
+r e y r b
+b r b w r
+r y b r w
+
+r y e r b
+b r b w r
+r y b r w
+
+r y r e b
+b r b w r
+r y b r w
+
+r y r w b
+b r b e r
+r y b r w
+
+r y r w b
+b r b r e
+r y b r w
+
+r y r w e
+b r b r b
+r y b r w
+
+r y r e w
+b r b r b
+r y b r w
+
+r y e r w
+b r b r b
+r y b r w
+
+r y b r w
+b r e r b
+r y b r w
+
+Puzzle 19 answer:
+
+r b b e b
+r y r r w
+w y r b r
+
+r b b r b
+r y r e w
+w y r b r
+
+r b b r b
+r y r w e
+w y r b r
+
+r b b r e
+r y r w b
+w y r b r
+
+r b b e r
+r y r w b
+w y r b r
+
+r b e b r
+r y r w b
+w y r b r
+
+r e b b r
+r y r w b
+w y r b r
+
+e r b b r
+r y r w b
+w y r b r
+
+r r b b r
+e y r w b
+w y r b r
+
+r r b b r
+y e r w b
+w y r b r
+
+r r b b r
+y r e w b
+w y r b r
+
+r r e b r
+y r b w b
+w y r b r
+
+r e r b r
+y r b w b
+w y r b r
+
+e r r b r
+y r b w b
+w y r b r
+
+y r r b r
+e r b w b
+w y r b r
+
+y r r b r
+w r b w b
+e y r b r
+
+y r r b r
+w r b w b
+y e r b r
+
+y r r b r
+w e b w b
+y r r b r
+
+Puzzle 20 answer:
+
+r r b b b
+w y r b e
+r y r r w
+
+r r b b e
+w y r b b
+r y r r w
+
+r r b e b
+w y r b b
+r y r r w
+
+r r e b b
+w y r b b
+r y r r w
+
+r e r b b
+w y r b b
+r y r r w
+
+r y r b b
+w e r b b
+r y r r w
+
+r y r b b
+w r e b b
+r y r r w
+
+r y r b b
+w r r b b
+r y e r w
+
+r y r b b
+w r r b b
+r y r e w
+
+r y r b b
+w r r e b
+r y r b w
+
+r y r b b
+w r r b e
+r y r b w
+
+r y r b b
+w r r b w
+r y r b e
+
+r y r b b
+w r r b w
+r y r e b
+
+r y r b b
+w r r e w
+r y r b b
+
+Puzzle 21 answer:
+
+y w r w r
+b r r b r
+b y b r e
+
+y w r w r
+b r r b r
+b y b e r
+
+y w r w r
+b r r e r
+b y b b r
+
+y w r w r
+b r e r r
+b y b b r
+
+y w r w r
+b r b r r
+b y e b r
+
+y w r w r
+b r b r r
+b y b e r
+
+y w r w r
+b r b e r
+b y b r r
+
+y w r e r
+b r b w r
+b y b r r
+
+y w e r r
+b r b w r
+b y b r r
+
+y w b r r
+b r e w r
+b y b r r
+
+y w b r r
+b e r w r
+b y b r r
+
+y e b r r
+b w r w r
+b y b r r
+
+e y b r r
+b w r w r
+b y b r r
+
+b y b r r
+e w r w r
+b y b r r
+
+Puzzle 22 answer:
+
+b r r r e
+r b r b y
+r y w b w
+
+b r r r y
+r b r b e
+r y w b w
+
+b r r r y
+r b r b w
+r y w b e
+
+b r r r y
+r b r b w
+r y w e b
+
+b r r r y
+r b r b w
+r y e w b
+
+b r r r y
+r b r b w
+r e y w b
+
+b r r r y
+r b r b w
+e r y w b
+
+b r r r y
+e b r b w
+r r y w b
+
+e r r r y
+b b r b w
+r r y w b
+
+r e r r y
+b b r b w
+r r y w b
+
+r r e r y
+b b r b w
+r r y w b
+
+r r r e y
+b b r b w
+r r y w b
+
+r r r y e
+b b r b w
+r r y w b
+
+r r r y w
+b b r b e
+r r y w b
+
+r r r y w
+b b r b b
+r r y w e
+
+r r r y w
+b b r b b
+r r y e w
+
+r r r y w
+b b r b b
+r r e y w
+
+r r r y w
+b b e b b
+r r r y w
+
+Puzzle 23 answer:
+
+w r r r r
+b y r r b
+b w e b y
+
+w r r r r
+b y e r b
+b w r b y
+
+w r r r r
+b y r e b
+b w r b y
+
+w r r e r
+b y r r b
+b w r b y
+
+w r r r e
+b y r r b
+b w r b y
+
+w r r r b
+b y r r e
+b w r b y
+
+w r r r b
+b y r r y
+b w r b e
+
+w r r r b
+b y r r y
+b w r e b
+
+w r r r b
+b y r e y
+b w r r b
+
+w r r r b
+b y e r y
+b w r r b
+
+w r r r b
+b e y r y
+b w r r b
+
+w e r r b
+b r y r y
+b w r r b
+
+e w r r b
+b r y r y
+b w r r b
+
+b w r r b
+e r y r y
+b w r r b
+
+Puzzle 24 answer:
+
+w w r b r
+b b r y r
+r y b r e
+
+w w r b r
+b b r y r
+r y b e r
+
+w w r b r
+b b r y r
+r y e b r
+
+w w r b r
+b b r y r
+r e y b r
+
+w w r b r
+b b r y r
+e r y b r
+
+w w r b r
+e b r y r
+b r y b r
+
+e w r b r
+w b r y r
+b r y b r
+
+w e r b r
+w b r y r
+b r y b r
+
+w b r b r
+w e r y r
+b r y b r
+
+w b r b r
+w r e y r
+b r y b r
+
+w b r b r
+w r y y r
+b r e b r
+
+w b r b r
+w r y y r
+b e r b r
+
+w b r b r
+w r y y r
+e b r b r
+
+w b r b r
+e r y y r
+w b r b r
+
+Puzzle 25 answer:
+
+w b r r r
+b e r b y
+b r w y r
+
+w b r r r
+b r r b y
+b e w y r
+
+w b r r r
+b r r b y
+b w e y r
+
+w b r r r
+b r e b y
+b w r y r
+
+w b r r r
+b r b e y
+b w r y r
+
+w b r r r
+b r b y y
+b w r e r
+
+w b r r r
+b r b y y
+b w e r r
+
+w b r r r
+b r e y y
+b w b r r
+
+w b e r r
+b r r y y
+b w b r r
+
+w e b r r
+b r r y y
+b w b r r
+
+e w b r r
+b r r y y
+b w b r r
+
+b w b r r
+e r r y y
+b w b r r
+
+Puzzle 26 answer:
+
+y r r b b
+e b w r r
+y r r w b
+
+y r r b b
+b e w r r
+y r r w b
+
+y e r b b
+b r w r r
+y r r w b
+
+y r e b b
+b r w r r
+y r r w b
+
+y r w b b
+b r e r r
+y r r w b
+
+y r w b b
+b r r e r
+y r r w b
+
+y r w e b
+b r r b r
+y r r w b
+
+y r e w b
+b r r b r
+y r r w b
+
+y r r w b
+b r e b r
+y r r w b
+
+Puzzle 27 answer:
+
+r r y w b
+r b r r b
+e b r y w
+
+r r y w b
+e b r r b
+r b r y w
+
+r r y w b
+b e r r b
+r b r y w
+
+r r y w b
+b b r r b
+r e r y w
+
+r r y w b
+b b r r b
+r r e y w
+
+r r y w b
+b b r r b
+r r y e w
+
+r r y w b
+b b r r b
+r r y w e
+
+r r y w b
+b b r r e
+r r y w b
+
+Puzzle 28 answer:
+
+b r w r r
+r r b y w
+b r y e b
+
+b r w r r
+r r b y w
+b r y b e
+
+b r w r r
+r r b y e
+b r y b w
+
+b r w r e
+r r b y r
+b r y b w
+
+b r w e r
+r r b y r
+b r y b w
+
+b r e w r
+r r b y r
+b r y b w
+
+b r b w r
+r r e y r
+b r y b w
+
+b r b w r
+r r y y r
+b r e b w
+
+b r b w r
+r r y y r
+b r b e w
+
+b r b w r
+r r y y r
+b r b w e
+
+b r b w r
+r r y y e
+b r b w r
+
+Puzzle 29 answer:
+
+b b r y r
+r r r w e
+w b y r b
+
+b b r y r
+r r r w b
+w b y r e
+
+b b r y r
+r r r w b
+w b y e r
+
+b b r y r
+r r r w b
+w b e y r
+
+b b r y r
+r r e w b
+w b r y r
+
+b b r y r
+r e r w b
+w b r y r
+
+b b r y r
+e r r w b
+w b r y r
+
+b b r y r
+w r r w b
+e b r y r
+
+b b r y r
+w r r w b
+b e r y r
+
+b b r y r
+w e r w b
+b r r y r
+
+b e r y r
+w b r w b
+b r r y r
+
+b r e y r
+w b r w b
+b r r y r
+
+b r r y r
+w b e w b
+b r r y r
+
+Puzzle 30 answer:
+
+w r w r r
+r r b b y
+b y e b r
+
+w r w r r
+r r b b y
+b e y b r
+
+w r w r r
+r e b b y
+b r y b r
+
+w r w r r
+r b e b y
+b r y b r
+
+w r e r r
+r b w b y
+b r y b r
+
+w r r e r
+r b w b y
+b r y b r
+
+w r r b r
+r b w e y
+b r y b r
+
+w r r b r
+r b e w y
+b r y b r
+
+w r r b r
+r b y w y
+b r e b r
+
+w r r b r
+r b y w y
+b e r b r
+
+w r r b r
+r b y w y
+e b r b r
+
+w r r b r
+e b y w y
+r b r b r
+
+e r r b r
+w b y w y
+r b r b r
+
+r e r b r
+w b y w y
+r b r b r
+
+r b r b r
+w e y w y
+r b r b r
+
+Puzzle 31 answer:
+
+y r r y r
+r w r b b
+b r b w e
+
+y r r y r
+r w r b e
+b r b w b
+
+y r r y r
+r w r e b
+b r b w b
+
+y r r y r
+r w e r b
+b r b w b
+
+y r r y r
+r e w r b
+b r b w b
+
+y r r y r
+e r w r b
+b r b w b
+
+y r r y r
+b r w r b
+e r b w b
+
+y r r y r
+b r w r b
+r e b w b
+
+y r r y r
+b e w r b
+r r b w b
+
+y r r y r
+e b w r b
+r r b w b
+
+e r r y r
+y b w r b
+r r b w b
+
+r e r y r
+y b w r b
+r r b w b
+
+r r e y r
+y b w r b
+r r b w b
+
+r r w y r
+y b e r b
+r r b w b
+
+r r w y r
+y b b r b
+r r e w b
+
+r r w y r
+y b b r b
+r r w e b
+
+r r w y r
+y b b e b
+r r w r b
+
+r r w e r
+y b b y b
+r r w r b
+
+r r w r e
+y b b y b
+r r w r b
+
+r r w r b
+y b b y e
+r r w r b
+
+Puzzle 32 answer:
+
+b y r b e
+r r r w r
+b y w b r
+
+b y r e b
+r r r w r
+b y w b r
+
+b y r w b
+r r r e r
+b y w b r
+
+b y r w b
+r r e r r
+b y w b r
+
+b y e w b
+r r r r r
+b y w b r
+
+b y w e b
+r r r r r
+b y w b r
+
+b y w b e
+r r r r r
+b y w b r
+
+b y w b r
+r r r r e
+b y w b r
+
+Puzzle 33 answer:
+
+b b r e r
+y r b w b
+r r y r w
+
+b b r w r
+y r b e b
+r r y r w
+
+b b r w r
+y r b b e
+r r y r w
+
+b b r w e
+y r b b r
+r r y r w
+
+b b r e w
+y r b b r
+r r y r w
+
+b b e r w
+y r b b r
+r r y r w
+
+b e b r w
+y r b b r
+r r y r w
+
+b r b r w
+y e b b r
+r r y r w
+
+b r b r w
+e y b b r
+r r y r w
+
+e r b r w
+b y b b r
+r r y r w
+
+r e b r w
+b y b b r
+r r y r w
+
+r y b r w
+b e b b r
+r r y r w
+
+r y b r w
+b r b b r
+r e y r w
+
+r y b r w
+b r b b r
+r y e r w
+
+r y b r w
+b r e b r
+r y b r w
+
+Puzzle 34 answer:
+
+r b y b y
+w b r e r
+b r r w r
+
+r b y e y
+w b r b r
+b r r w r
+
+r b y y e
+w b r b r
+b r r w r
+
+r b y y r
+w b r b e
+b r r w r
+
+r b y y r
+w b r e b
+b r r w r
+
+r b y e r
+w b r y b
+b r r w r
+
+r b e y r
+w b r y b
+b r r w r
+
+r b r y r
+w b e y b
+b r r w r
+
+r b r y r
+w e b y b
+b r r w r
+
+r b r y r
+e w b y b
+b r r w r
+
+r b r y r
+b w b y b
+e r r w r
+
+r b r y r
+b w b y b
+r e r w r
+
+r b r y r
+b w b y b
+r r e w r
+
+r b r y r
+b w b y b
+r r w e r
+
+r b r y r
+b w b e b
+r r w y r
+
+r b r y r
+b w e b b
+r r w y r
+
+r b r y r
+b e w b b
+r r w y r
+
+r e r y r
+b b w b b
+r r w y r
+
+r r e y r
+b b w b b
+r r w y r
+
+r r w y r
+b b e b b
+r r w y r
+
+Puzzle 35 answer:
+
+w r y e b
+b r r b b
+w r r r y
+
+w r e y b
+b r r b b
+w r r r y
+
+w r r y b
+b r e b b
+w r r r y
+
+w r r y b
+b r b e b
+w r r r y
+
+w r r y b
+b r b r b
+w r r e y
+
+w r r y b
+b r b r b
+w r r y e
+
+w r r y b
+b r b r e
+w r r y b
+
+Puzzle 36 answer:
+
+y b b b r
+r w r r y
+w e r r b
+
+y b b b r
+r w r r y
+w r e r b
+
+y b b b r
+r w e r y
+w r r r b
+
+y b e b r
+r w b r y
+w r r r b
+
+y b b e r
+r w b r y
+w r r r b
+
+y b b r r
+r w b e y
+w r r r b
+
+y b b r r
+r w b y e
+w r r r b
+
+y b b r r
+r w b y b
+w r r r e
+
+y b b r r
+r w b y b
+w r r e r
+
+y b b r r
+r w b y b
+w r e r r
+
+y b b r r
+r w e y b
+w r b r r
+
+y b e r r
+r w b y b
+w r b r r
+
+y e b r r
+r w b y b
+w r b r r
+
+y w b r r
+r e b y b
+w r b r r
+
+y w b r r
+e r b y b
+w r b r r
+
+e w b r r
+y r b y b
+w r b r r
+
+w e b r r
+y r b y b
+w r b r r
+
+w r b r r
+y e b y b
+w r b r r
+
+Puzzle 37 answer:
+
+y w r b b
+r r r b w
+b r r e y
+
+y w r b b
+r r r e w
+b r r b y
+
+y w r b b
+r r e r w
+b r r b y
+
+y w r b b
+r e r r w
+b r r b y
+
+y e r b b
+r w r r w
+b r r b y
+
+y r e b b
+r w r r w
+b r r b y
+
+y r b e b
+r w r r w
+b r r b y
+
+y r b r b
+r w r e w
+b r r b y
+
+y r b r b
+r w r w e
+b r r b y
+
+y r b r b
+r w r w y
+b r r b e
+
+y r b r b
+r w r w y
+b r r e b
+
+y r b r b
+r w r w y
+b r e r b
+
+y r b r b
+r w r w y
+b e r r b
+
+y r b r b
+r w r w y
+e b r r b
+
+y r b r b
+e w r w y
+r b r r b
+
+e r b r b
+y w r w y
+r b r r b
+
+r e b r b
+y w r w y
+r b r r b
+
+r b e r b
+y w r w y
+r b r r b
+
+r b r r b
+y w e w y
+r b r r b
+
+Puzzle 38 answer:
+
+w b y w r
+e b b r r
+r b y r r
+
+e b y w r
+w b b r r
+r b y r r
+
+b e y w r
+w b b r r
+r b y r r
+
+b y e w r
+w b b r r
+r b y r r
+
+b y b w r
+w b e r r
+r b y r r
+
+b y b w r
+w e b r r
+r b y r r
+
+b y b w r
+e w b r r
+r b y r r
+
+b y b w r
+r w b r r
+e b y r r
+
+b y b w r
+r w b r r
+b e y r r
+
+b y b w r
+r w b r r
+b y e r r
+
+b y b w r
+r w e r r
+b y b r r
+
+b y b w r
+r w r e r
+b y b r r
+
+b y b e r
+r w r w r
+b y b r r
+
+b y b r e
+r w r w r
+b y b r r
+
+b y b r r
+r w r w e
+b y b r r
+
+Puzzle 39 answer:
+
+b w r y w
+r y r r b
+r b r b e
+
+b w r y w
+r y r r b
+r b r e b
+
+b w r y w
+r y r e b
+r b r r b
+
+b w r e w
+r y r y b
+r b r r b
+
+b w r w e
+r y r y b
+r b r r b
+
+b w r w b
+r y r y e
+r b r r b
+
+b w r w b
+r y r e y
+r b r r b
+
+b w r e b
+r y r w y
+r b r r b
+
+b w e r b
+r y r w y
+r b r r b
+
+b w r r b
+r y e w y
+r b r r b
+
+b w r r b
+r e y w y
+r b r r b
+
+b e r r b
+r w y w y
+r b r r b
+
+e b r r b
+r w y w y
+r b r r b
+
+r b r r b
+e w y w y
+r b r r b
+
+Puzzle 40 answer:
+
+r b b r b
+r r y r r
+w w b e y
+
+r b b r b
+r r y r r
+w w b y e
+
+r b b r b
+r r y r e
+w w b y r
+
+r b b r e
+r r y r b
+w w b y r
+
+r b b e r
+r r y r b
+w w b y r
+
+r b e b r
+r r y r b
+w w b y r
+
+r b y b r
+r r e r b
+w w b y r
+
+r b y b r
+r r r e b
+w w b y r
+
+r b y e r
+r r r b b
+w w b y r
+
+r b e y r
+r r r b b
+w w b y r
+
+r e b y r
+r r r b b
+w w b y r
+
+r r b y r
+r e r b b
+w w b y r
+
+r r b y r
+r w r b b
+w e b y r
+
+r r b y r
+r w r b b
+e w b y r
+
+r r b y r
+e w r b b
+r w b y r
+
+e r b y r
+r w r b b
+r w b y r
+
+r e b y r
+r w r b b
+r w b y r
+
+r w b y r
+r e r b b
+r w b y r
+
+Puzzle 41 answer:
+
+y r w r r
+b r y r b
+e b r b w
+
+y r w r r
+b r y r b
+b e r b w
+
+y r w r r
+b e y r b
+b r r b w
+
+y r w r r
+b y e r b
+b r r b w
+
+y r e r r
+b y w r b
+b r r b w
+
+y r r e r
+b y w r b
+b r r b w
+
+y r r r e
+b y w r b
+b r r b w
+
+y r r r b
+b y w r e
+b r r b w
+
+y r r r b
+b y w r w
+b r r b e
+
+y r r r b
+b y w r w
+b r r e b
+
+y r r r b
+b y w r w
+b r e r b
+
+y r r r b
+b y w r w
+b e r r b
+
+y r r r b
+b e w r w
+b y r r b
+
+y e r r b
+b r w r w
+b y r r b
+
+e y r r b
+b r w r w
+b y r r b
+
+b y r r b
+e r w r w
+b y r r b
+
+Puzzle 42 answer:
+
+r e r r r
+r b w b b
+w y b y r
+
+r b r r r
+r e w b b
+w y b y r
+
+r b r r r
+r w e b b
+w y b y r
+
+r b e r r
+r w r b b
+w y b y r
+
+r e b r r
+r w r b b
+w y b y r
+
+r w b r r
+r e r b b
+w y b y r
+
+r w b r r
+r y r b b
+w e b y r
+
+r w b r r
+r y r b b
+w b e y r
+
+r w b r r
+r y e b b
+w b r y r
+
+r w b r r
+r y b e b
+w b r y r
+
+r w b r r
+r y b y b
+w b r e r
+
+r w b r r
+r y b y b
+w b e r r
+
+r w b r r
+r y b y b
+w e b r r
+
+r w b r r
+r y b y b
+e w b r r
+
+r w b r r
+e y b y b
+r w b r r
+
+Puzzle 43 answer:
+
+r r b y b
+r b r y w
+r e b w r
+
+r r b y b
+r e r y w
+r b b w r
+
+r r b y b
+r r e y w
+r b b w r
+
+r r b y b
+r r y e w
+r b b w r
+
+r r b e b
+r r y y w
+r b b w r
+
+r r b b e
+r r y y w
+r b b w r
+
+r r b b w
+r r y y e
+r b b w r
+
+r r b b w
+r r y y r
+r b b w e
+
+r r b b w
+r r y y r
+r b b e w
+
+r r b b w
+r r y y r
+r b e b w
+
+r r b b w
+r r y y r
+r e b b w
+
+r r b b w
+r e y y r
+r r b b w
+
+Puzzle 44 answer:
+
+y r r r b
+r w r b y
+b e b w r
+
+y r r r b
+r w r b y
+b b e w r
+
+y r r r b
+r w e b y
+b b r w r
+
+y r r r b
+r e w b y
+b b r w r
+
+y r r r b
+r b w b y
+b e r w r
+
+y r r r b
+r b w b y
+e b r w r
+
+y r r r b
+e b w b y
+r b r w r
+
+e r r r b
+y b w b y
+r b r w r
+
+r e r r b
+y b w b y
+r b r w r
+
+r r e r b
+y b w b y
+r b r w r
+
+r r w r b
+y b e b y
+r b r w r
+
+r r w r b
+y b b e y
+r b r w r
+
+r r w r b
+y b b y e
+r b r w r
+
+r r w r e
+y b b y b
+r b r w r
+
+r r w e r
+y b b y b
+r b r w r
+
+r r e w r
+y b b y b
+r b r w r
+
+r e r w r
+y b b y b
+r b r w r
+
+r b r w r
+y e b y b
+r b r w r
+
+Puzzle 45 answer:
+
+e r y r r
+b b r b r
+w r y w b
+
+r e y r r
+b b r b r
+w r y w b
+
+r b y r r
+b e r b r
+w r y w b
+
+r b y r r
+e b r b r
+w r y w b
+
+r b y r r
+w b r b r
+e r y w b
+
+r b y r r
+w b r b r
+r e y w b
+
+r b y r r
+w b r b r
+r y e w b
+
+r b y r r
+w b e b r
+r y r w b
+
+r b y r r
+w e b b r
+r y r w b
+
+r e y r r
+w b b b r
+r y r w b
+
+r y e r r
+w b b b r
+r y r w b
+
+r y r e r
+w b b b r
+r y r w b
+
+r y r b r
+w b b e r
+r y r w b
+
+r y r b r
+w b b w r
+r y r e b
+
+r y r b r
+w b b w r
+r y r b e
+
+r y r b r
+w b b w e
+r y r b r
+
+Puzzle 46 answer:
+
+y r r r r
+y b r r w
+b b b e w
+
+y r r r r
+y b r e w
+b b b r w
+
+y r r r r
+y b e r w
+b b b r w
+
+y r e r r
+y b r r w
+b b b r w
+
+y e r r r
+y b r r w
+b b b r w
+
+y b r r r
+y e r r w
+b b b r w
+
+y b r r r
+y b r r w
+b e b r w
+
+y b r r r
+y b r r w
+e b b r w
+
+y b r r r
+e b r r w
+y b b r w
+
+y b r r r
+b e r r w
+y b b r w
+
+y b r r r
+b b r r w
+y e b r w
+
+y b r r r
+b b r r w
+y b e r w
+
+y b r r r
+b b e r w
+y b r r w
+
+y b r r r
+b b r e w
+y b r r w
+
+y b r e r
+b b r r w
+y b r r w
+
+y b r r e
+b b r r w
+y b r r w
+
+y b r r w
+b b r r e
+y b r r w
+
+Puzzle 47 answer:
+
+b y w b w
+b r r r r
+r b r y e
+
+b y w b w
+b r r r e
+r b r y r
+
+b y w b e
+b r r r w
+r b r y r
+
+b y w e b
+b r r r w
+r b r y r
+
+b y e w b
+b r r r w
+r b r y r
+
+b e y w b
+b r r r w
+r b r y r
+
+b r y w b
+b e r r w
+r b r y r
+
+b r y w b
+e b r r w
+r b r y r
+
+b r y w b
+r b r r w
+e b r y r
+
+b r y w b
+r b r r w
+b e r y r
+
+b r y w b
+r b r r w
+b r e y r
+
+b r y w b
+r b r r w
+b r y e r
+
+b r y w b
+r b r r w
+b r y r e
+
+b r y w b
+r b r r e
+b r y r w
+
+b r y w e
+r b r r b
+b r y r w
+
+b r y e w
+r b r r b
+b r y r w
+
+b r y r w
+r b r e b
+b r y r w
+
+Puzzle 48 answer:
+
+r b b e y
+w b r r b
+y w r r r
+
+r b e b y
+w b r r b
+y w r r r
+
+r b r b y
+w b e r b
+y w r r r
+
+r b r b y
+w e b r b
+y w r r r
+
+r e r b y
+w b b r b
+y w r r r
+
+e r r b y
+w b b r b
+y w r r r
+
+w r r b y
+e b b r b
+y w r r r
+
+w r r b y
+y b b r b
+e w r r r
+
+w r r b y
+y b b r b
+w e r r r
+
+w r r b y
+y b b r b
+w r e r r
+
+w r r b y
+y b b r b
+w r r e r
+
+w r r b y
+y b b r b
+w r r r e
+
+w r r b y
+y b b r e
+w r r r b
+
+w r r b e
+y b b r y
+w r r r b
+
+w r r e b
+y b b r y
+w r r r b
+
+w r r r b
+y b b e y
+w r r r b
+
+Puzzle 49 answer:
+
+r b r w e
+b y r b r
+y w r r b
+
+r b r w r
+b y r b e
+y w r r b
+
+r b r w r
+b y r e b
+y w r r b
+
+r b r w r
+b y r r b
+y w r e b
+
+r b r w r
+b y r r b
+y w e r b
+
+r b r w r
+b y r r b
+y e w r b
+
+r b r w r
+b y r r b
+e y w r b
+
+r b r w r
+e y r r b
+b y w r b
+
+e b r w r
+r y r r b
+b y w r b
+
+b e r w r
+r y r r b
+b y w r b
+
+b y r w r
+r e r r b
+b y w r b
+
+b y r w r
+r r e r b
+b y w r b
+
+b y e w r
+r r r r b
+b y w r b
+
+b y w e r
+r r r r b
+b y w r b
+
+b y w r e
+r r r r b
+b y w r b
+
+b y w r b
+r r r r e
+b y w r b
+
+Puzzle 50 answer:
+
+w w r y b
+b r r b b
+y e r r r
+
+w w r y b
+b r r b b
+e y r r r
+
+w w r y b
+e r r b b
+b y r r r
+
+e w r y b
+w r r b b
+b y r r r
+
+w e r y b
+w r r b b
+b y r r r
+
+w r r y b
+w e r b b
+b y r r r
+
+w r r y b
+w y r b b
+b e r r r
+
+w r r y b
+w y r b b
+e b r r r
+
+w r r y b
+e y r b b
+w b r r r
+
+w r r y b
+y e r b b
+w b r r r
+
+w r r y b
+y b r b b
+w e r r r
+
+w r r y b
+y b r b b
+w r e r r
+
+w r r y b
+y b r b b
+w r r e r
+
+w r r y b
+y b r b b
+w r r r e
+
+w r r y b
+y b r b e
+w r r r b
+
+w r r y b
+y b r e b
+w r r r b
+
+w r r e b
+y b r y b
+w r r r b
+
+w r e r b
+y b r y b
+w r r r b
+
+w r r r b
+y b e y b
+w r r r b
+

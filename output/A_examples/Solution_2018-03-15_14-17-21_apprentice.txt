@@ -1,0 +1,203 @@
+wbwbryrbrrreyrb
+Solution = MHCBGFABGHINOJ
+Time to solve: 0.53031
+
+brrrrwybbrerybw
+Solution = FABGFKLMNOJEDCHINOJ
+Time to solve: 7.32850
+
+rebbbyrwrrrwyrb
+Solution = GHIDCBGHMNI
+Time to solve: 0.13843
+
+rbrrybbbrrwwrey
+Solution = IHGLKFABG
+Time to solve: 0.03125
+
+rrbbywrrrwybebr
+Solution = LGBCDIJEDCHGFKLMH
+Time to solve: 3.60687
+
+ywwbyrrrebbbrrr
+Solution = NOJEDIHCBAFKLMHGBAF
+Time to solve: 8.39831
+
+brrbrrrywbreybw
+Solution = GFABCDIJEDCH
+Time to solve: 0.12498
+
+wyrbrrwrebbybrr
+Solution = NMLGFKLMH
+Time to solve: 0.04688
+
+brbrbrwerrrybyw
+Solution = CBAFGLMNIHMNIJONI
+Time to solve: 4.61002
+
+bebrbbrwyrwryrr
+Solution = GHCBGLKFGHIJEDCH
+Time to solve: 2.02202
+
+brwyrrbbywerrrb
+Solution = LGHIJONIDCBAF
+Time to solve: 0.21877
+
+ryewwrbbrbrbyrr
+Solution = DIJEDCBGHIJONI
+Time to solve: 0.92839
+
+bwbyerybwrrrbrr
+Solution = JIHGBAFGLMHINMH
+Time to solve: 0.95969
+
+ybrrwbrrerbyrbw
+Solution = NMHGBAF
+Time to solve: 0.01905
+
+ryrrybbbrwrrwbe
+Solution = NIJEDIJONMHGBCH
+Time to solve: 1.29159
+
+rrbyrrrrwwebbby
+Solution = FGLMHIJEDCBG
+Time to solve: 0.14839
+
+rrrwyberrbbwybr
+Solution = BCDEJONMLGBAF
+Time to solve: 0.19310
+
+bryrbrebwryrbrw
+Solution = LKFABCDIJEDCH
+Time to solve: 0.61312
+
+rbbebryrrwwyrbr
+Solution = IJEDCBAFGHCBAFKLG
+Time to solve: 3.67184
+
+rrbbbwyrberyrrw
+Solution = EDCBGHMNIJONI
+Time to solve: 0.21877
+
+ywrwrbrrbrbybre
+Solution = NIHMNIDCHGBAF
+Time to solve: 0.30526
+
+brrrerbrbyrywbw
+Solution = JONMLKFABCDEJONMH
+Time to solve: 2.33139
+
+wrrrrbyrrbbweby
+Solution = HIDEJONIHGBAF
+Time to solve: 0.25003
+
+wwrbrbbryrrybre
+Solution = NMLKFABGHMLKF
+Time to solve: 0.38645
+
+wbrrrberbybrwyr
+Solution = LMHINMHCBAF
+Time to solve: 0.16359
+
+yrrbbebwrryrrwb
+Solution = GBCHIDCH
+Time to solve: 0.03125
+
+rrywbrbrrbebryw
+Solution = FGLMNOJ
+Time to solve: 0.00000
+
+brwrrrrbywbryeb
+Solution = OJEDCHMNOJ
+Time to solve: 0.06251
+
+bbryrrrrwewbyrb
+Solution = ONMHGFKLGBCH
+Time to solve: 0.17189
+
+wrwrrrrbbybyebr
+Solution = LGHCDIHMLKFABG
+Time to solve: 0.57721
+
+yrryrrwrbbbrbwe
+Solution = JIHGFKLGFABCHMNIDEJ
+Time to solve: 8.02296
+
+byrberrrwrbywbr
+Solution = DIHCDEJ
+Time to solve: 0.01370
+
+bbreryrbwbrryrw
+Solution = IJEDCBGFABGLMH
+Time to solve: 0.54693
+
+rbybywbrerbrrwr
+Solution = DEJIDCHGFKLMNIHGBCH
+Time to solve: 12.12797
+
+wryebbrrbbwrrry
+Solution = CHINOJ
+Time to solve: 0.00401
+
+ybbbrrwrrywerrb
+Solution = MHCDIJONMHCBGFABG
+Time to solve: 2.82501
+
+ywrbbrrrbwbrrey
+Solution = IHGBCDIJONMLKFABCH
+Time to solve: 3.99923
+
+wbywrebbrrrbyrr
+Solution = ABCHGFKLMHIDEJ
+Time to solve: 1.18114
+
+bwrywryrrbrbrbe
+Solution = NIDEJIDCHGBAF
+Time to solve: 0.16945
+
+rbbrbrryrrwwbey
+Solution = OJEDCHIDCBGLKFABG
+Time to solve: 4.16956
+
+yrwrrbryrbebrbw
+Solution = LGHCDEJONMLGBAF
+Time to solve: 0.81259
+
+rerrrrbwbbwybyr
+Solution = GHCBGLMHINMLKF
+Time to solve: 0.70320
+
+rrbybrbrywrebwr
+Solution = GHIDEJONMLG
+Time to solve: 0.10938
+
+yrrrbrwrbybebwr
+Solution = MHGLKFABCHIJEDCBG
+Time to solve: 2.73614
+
+eryrrbbrbrwrywb
+Solution = BGFKLMHGBCDINOJ
+Time to solve: 0.82302
+
+yrrrrybrrwbbbew
+Solution = IHCBGLKFGLMHIDEJ
+Time to solve: 0.92868
+
+bywbwbrrrrrbrye
+Solution = JEDCBGFKLMNOJEDI
+Time to solve: 1.27846
+
+rbbeywbrrbywrrr
+Solution = CHGBAFKLMNOJEDI
+Time to solve: 0.62507
+
+rbrwebyrbrywrrb
+Solution = JINMLKFABGHCDEJ
+Time to solve: 0.78807
+
+wwrybbrrbbyerrr
+Solution = KFABGLKFGLMNOJIDCH
+Time to solve: 3.93979
+
+
+Total Time: 85.18423
+Total Moves: 689

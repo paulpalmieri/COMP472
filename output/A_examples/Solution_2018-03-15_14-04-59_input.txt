@@ -1,0 +1,23 @@
+rebwrbbbrrrbrbw
+Solution = GHMNOJ
+Time to solve: 0.01564
+
+errrrryyyyrrrrr
+Solution = F
+Time to solve: 0.00000
+
+brbwwrrbbbbrerr
+Solution = NIDEJONIHCBG
+Time to solve: 0.26563
+
+rrbbrwbrrrwbebb
+Solution = HGBAFGLMNOJ
+Time to solve: 0.15627
+
+rrrrbbwwyyggppe
+Solution = JIDEJINMHCDIHGBCHGLKFABG
+Time to solve: 129.34026
+
+
+Total Time: 129.77779
+Total Moves: 54
