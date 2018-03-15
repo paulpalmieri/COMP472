@@ -22,8 +22,8 @@ char_map = {
 def solve(file_name, strategy):
 
     time_stamp = time.strftime("%Y-%m-%d_%H-%M-%S")
-    output_file = "output/Solution_" + time_stamp + "_" + file_name[6:]
-    answer_file = "output/Answer_" + time_stamp + "_" + file_name[6:]
+    output_file = "output/Solution_" + time_stamp
+    answer_file = "output/Answer_" + time_stamp
     solver = ASearch(strategy)
     total_moves = 0
     total_time = 0
