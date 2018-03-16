@@ -99,48 +99,48 @@ w b b b r
 r y e b w
 
 r y r r r
-w b b b r
-r y b e w
-
-r y r r r
-w b b b r
-r y b w e
-
-r y r r r
-w b b b e
-r y b w r
-
-r y r r e
-w b b b r
-r y b w r
-
-r y r e r
-w b b b r
-r y b w r
+w b e b r
+r y b b w
 
 r y e r r
-w b b b r
+w b r b r
+r y b b w
+
+r y r e r
+w b r b r
+r y b b w
+
+r y r b r
+w b r e r
+r y b b w
+
+r y r b r
+w b r b r
+r y b e w
+
+r y r b r
+w b r b r
+r y b w e
+
+r y r b r
+w b r b e
 r y b w r
 
-r y b r r
-w b e b r
+r y r b r
+w b r e b
 r y b w r
 
-r y b r r
-w b b e r
-r y b w r
-
-r y b r r
-w b b w r
+r y r b r
+w b r w b
 r y b e r
 
-r y b r r
-w b b w r
-r y b r e
+r y r b r
+w b r w b
+r y e b r
 
-r y b r r
-w b b w e
-r y b r r
+r y r b r
+w b e w b
+r y r b r
 
 Puzzle 3 answer:
 
@@ -521,24 +521,24 @@ w y b r r
 r b e y w
 
 r b r r b
-w y b r r
-r b y e w
+w y e r r
+r b b y w
 
 r b r r b
-w y b e r
-r b y r w
+w y r e r
+r b b y w
 
 r b r r b
-w y e b r
-r b y r w
+w y r y r
+r b b e w
 
 r b r r b
-w y y b r
-r b e r w
+w y r y r
+r b e b w
 
 r b r r b
-w y y b r
-r b r e w
+w y e y r
+r b r b w
 
 r b r r b
 w y y e r
@@ -571,63 +571,63 @@ b e w y r
 w r y r r
 
 b r b r b
-b w e y r
-w r y r r
-
-b r e r b
-b w b y r
-w r y r r
-
-b e r r b
-b w b y r
-w r y r r
-
-b w r r b
-b e b y r
-w r y r r
-
-b w r r b
-b b e y r
-w r y r r
-
-b w r r b
-b b y e r
-w r y r r
-
-b w r r b
-b b y r e
-w r y r r
-
-b w r r e
-b b y r b
-w r y r r
-
-b w r e r
-b b y r b
-w r y r r
-
-b w e r r
-b b y r b
-w r y r r
-
-b w y r r
-b b e r b
-w r y r r
-
-b w y r r
-b e b r b
-w r y r r
-
-b w y r r
-b r b r b
+b r w y r
 w e y r r
 
-b w y r r
 b r b r b
+b r w y r
 e w y r r
 
+b r b r b
+e r w y r
 b w y r r
-e r b r b
+
+b r b r b
+r e w y r
+b w y r r
+
+b r b r b
+r w e y r
+b w y r r
+
+b r e r b
+r w b y r
+b w y r r
+
+b e r r b
+r w b y r
+b w y r r
+
+b w r r b
+r e b y r
+b w y r r
+
+b w r r b
+r b e y r
+b w y r r
+
+b w r r b
+r b y e r
+b w y r r
+
+b w r r b
+r b y r e
+b w y r r
+
+b w r r e
+r b y r b
+b w y r r
+
+b w r e r
+r b y r b
+b w y r r
+
+b w e r r
+r b y r b
+b w y r r
+
+b w y r r
+r b e r b
 b w y r r
 
 Puzzle 11 answer:
@@ -694,61 +694,61 @@ r y e w w
 r b b r b
 r b y r r
 
-r y w e w
-r b b r b
+r y b w w
+r b e r b
 r b y r r
 
-r y w r w
+r y b w w
+r b r e b
+r b y r r
+
+r y b e w
+r b r w b
+r b y r r
+
+r y e b w
+r b r w b
+r b y r r
+
+r y r b w
+r b e w b
+r b y r r
+
+r y r b w
+r e b w b
+r b y r r
+
+r y r b w
+r b b w b
+r e y r r
+
+r y r b w
+r b b w b
+r y e r r
+
+r y r b w
+r b b w b
+r y r e r
+
+r y r b w
 r b b e b
-r b y r r
+r y r w r
 
-r y w r w
+r y r b w
 r b b b e
-r b y r r
+r y r w r
 
-r y w r e
-r b b b w
-r b y r r
+r y r b w
+r b b b r
+r y r w e
 
-r y w e r
-r b b b w
-r b y r r
+r y r b w
+r b b b r
+r y r e w
 
-r y e w r
-r b b b w
-r b y r r
-
-r e y w r
-r b b b w
-r b y r r
-
-r b y w r
-r e b b w
-r b y r r
-
-r b y w r
-r b e b w
-r b y r r
-
-r b y w r
-r b b e w
-r b y r r
-
-r b y w r
-r b b w e
-r b y r r
-
-r b y w r
-r b b w r
-r b y r e
-
-r b y w r
-r b b w r
-r b y e r
-
-r b y w r
+r y r b w
 r b b e r
-r b y w r
+r y r b w
 
 Puzzle 13 answer:
 
@@ -761,60 +761,60 @@ r y b w e
 r r b r r
 
 b w b y r
-r y b e w
-r r b r r
+r y b w r
+r r b r e
 
 b w b y r
-r y e b w
-r r b r r
+r y b w r
+r r b e r
 
 b w b y r
-r e y b w
-r r b r r
+r y b e r
+r r b w r
 
-b e b y r
-r w y b w
-r r b r r
+b w b y r
+r y e b r
+r r b w r
 
-e b b y r
-r w y b w
-r r b r r
+b w b y r
+r e y b r
+r r b w r
 
-r b b y r
-e w y b w
-r r b r r
+b w b y r
+r r y b r
+r e b w r
 
-r b b y r
-w e y b w
-r r b r r
+b w b y r
+r r y b r
+r b e w r
 
-r b b y r
-w r y b w
-r e b r r
+b w b y r
+r r y b r
+r b w e r
 
-r b b y r
-w r y b w
-r b e r r
+b w b y r
+r r y e r
+r b w b r
 
-r b b y r
-w r e b w
-r b y r r
+b w b e r
+r r y y r
+r b w b r
 
-r b b y r
-w r b e w
-r b y r r
+b w e b r
+r r y y r
+r b w b r
 
-r b b y r
-w r b r w
-r b y e r
+b e w b r
+r r y y r
+r b w b r
 
-r b b y r
-w r b r w
-r b e y r
+e b w b r
+r r y y r
+r b w b r
 
-r b b y r
-w r e r w
-r b b y r
+r b w b r
+e r y y r
+r b w b r
 
 Puzzle 14 answer:
 
@@ -1178,45 +1178,45 @@ r r e b b
 w y r b b
 r y r r w
 
-r e r b b
-w y r b b
+r r r b b
+w y e b b
 r y r r w
 
-r y r b b
-w e r b b
+r r r b b
+w e y b b
 r y r r w
 
-r y r b b
-w r e b b
-r y r r w
+r r r b b
+w y y b b
+r e r r w
 
-r y r b b
-w r r b b
-r y e r w
+r r r b b
+w y y b b
+r r e r w
 
-r y r b b
-w r r b b
-r y r e w
+r r r b b
+w y y b b
+r r r e w
 
-r y r b b
-w r r e b
-r y r b w
+r r r b b
+w y y e b
+r r r b w
 
-r y r b b
-w r r b e
-r y r b w
+r r r b b
+w y y b e
+r r r b w
 
-r y r b b
-w r r b w
-r y r b e
+r r r b b
+w y y b w
+r r r b e
 
-r y r b b
-w r r b w
-r y r e b
+r r r b b
+w y y b w
+r r r e b
 
-r y r b b
-w r r e w
-r y r b b
+r r r b b
+w y y e w
+r r r b b
 
 Puzzle 21 answer:
 
@@ -1360,8 +1360,8 @@ w r r r r
 b y e r b
 b w r b y
 
-w r r r r
-b y r e b
+w r e r r
+b y r r b
 b w r b y
 
 w r r e r
@@ -1388,24 +1388,24 @@ w r r r b
 b y r e y
 b w r r b
 
-w r r r b
-b y e r y
+w r r e b
+b y r r y
 b w r r b
 
-w r r r b
-b e y r y
+w r e r b
+b y r r y
 b w r r b
 
 w e r r b
-b r y r y
+b y r r y
 b w r r b
 
 e w r r b
-b r y r y
+b y r r y
 b w r r b
 
 b w r r b
-e r y r y
+e y r r y
 b w r r b
 
 Puzzle 24 answer:
@@ -1847,24 +1847,24 @@ r r r e r
 b y w b r
 
 b y r w b
-r r r r e
+r r e r r
 b y w b r
 
-b y r w b
-r r r r r
-b y w b e
-
-b y r w b
-r r r r r
-b y w e b
-
-b y r w b
-r r r r r
 b y e w b
+r r r r r
+b y w b r
 
-b y r w b
-r r e r r
-b y r w b
+b y w e b
+r r r r r
+b y w b r
+
+b y w b e
+r r r r r
+b y w b r
+
+b y w b r
+r r r r e
+b y w b r
 
 Puzzle 33 answer:
 
@@ -1934,81 +1934,81 @@ r b y b y
 w b r e r
 b r r w r
 
-r b y b y
-w b e r r
+r b y e y
+w b r b r
 b r r w r
 
-r b e b y
-w b y r r
+r b e y y
+w b r b r
 b r r w r
 
-r b b e y
-w b y r r
+r b r y y
+w b e b r
 b r r w r
 
-r b b y e
-w b y r r
+r b r y y
+w b b e r
 b r r w r
 
-r b b y r
-w b y r e
+r b r y y
+w b b r e
 b r r w r
 
-r b b y r
-w b y e r
+r b r y e
+w b b r y
 b r r w r
 
-r b b y r
-w b e y r
+r b r e y
+w b b r y
 b r r w r
 
-r b b y r
-w b r y r
-b r e w r
+r b r r y
+w b b e y
+b r r w r
 
-r b b y r
-w b r y r
-b r w e r
+r b r r y
+w b b w y
+b r r e r
 
-r b b y r
-w b r e r
-b r w y r
+r b r r y
+w b b w y
+b r e r r
 
-r b b y r
-w b e r r
-b r w y r
+r b r r y
+w b e w y
+b r b r r
 
-r b b y r
-w e b r r
-b r w y r
+r b r r y
+w e b w y
+b r b r r
 
-r b b y r
-e w b r r
-b r w y r
+r b r r y
+e w b w y
+b r b r r
 
-e b b y r
-r w b r r
-b r w y r
+r b r r y
+b w b w y
+e r b r r
 
-b e b y r
-r w b r r
-b r w y r
-
-b w b y r
+r b r r y
+b w b w y
 r e b r r
-b r w y r
 
-b w b y r
-r r b r r
-b e w y r
+r b r r y
+b w b w y
+r b e r r
 
-b w b y r
-r r b r r
-b w e y r
+r b r r y
+b w b w y
+r b r e r
 
-b w b y r
-r r e r r
-b w b y r
+r b r r y
+b w b w y
+r b r r e
+
+r b r r y
+b w b w e
+r b r r y
 
 Puzzle 35 answer:
 
@@ -2025,19 +2025,19 @@ b r e b b
 w r r r y
 
 w r r y b
-b r b e b
-w r r r y
+b r r b b
+w r e r y
 
 w r r y b
-b r b r b
+b r r b b
 w r r e y
 
 w r r y b
-b r b r b
+b r r b b
 w r r y e
 
 w r r y b
-b r b r e
+b r r b e
 w r r y b
 
 Puzzle 36 answer:
@@ -2319,72 +2319,72 @@ r r y r r
 w w b e y
 
 r b b r b
-r r y r r
-w w b y e
+r r y e r
+w w b r y
 
 r b b r b
-r r y r e
-w w b y r
+r r e y r
+w w b r y
 
-r b b r e
-r r y r b
-w w b y r
-
-r b b e r
-r r y r b
-w w b y r
-
-r b e b r
-r r y r b
-w w b y r
-
-r b y b r
-r r e r b
-w w b y r
-
-r b y b r
-r r r e b
-w w b y r
-
-r b y e r
-r r r b b
-w w b y r
-
-r b e y r
-r r r b b
-w w b y r
-
-r e b y r
-r r r b b
-w w b y r
-
+r b e r b
 r r b y r
-r e r b b
-w w b y r
+w w b r y
 
+r b r e b
 r r b y r
-r w r b b
-w e b y r
+w w b r y
 
-r r b y r
-r w r b b
-e w b y r
+r b r y b
+r r b e r
+w w b r y
 
-r r b y r
-e w r b b
-r w b y r
+r b r y b
+r r b r e
+w w b r y
 
-e r b y r
-r w r b b
-r w b y r
+r b r y e
+r r b r b
+w w b r y
 
-r e b y r
-r w r b b
-r w b y r
+r b r e y
+r r b r b
+w w b r y
 
-r w b y r
-r e r b b
-r w b y r
+r b e r y
+r r b r b
+w w b r y
+
+r e b r y
+r r b r b
+w w b r y
+
+r r b r y
+r e b r b
+w w b r y
+
+r r b r y
+r w b r b
+w e b r y
+
+r r b r y
+r w b r b
+e w b r y
+
+r r b r y
+e w b r b
+r w b r y
+
+e r b r y
+r w b r b
+r w b r y
+
+r e b r y
+r w b r b
+r w b r y
+
+r w b r y
+r e b r b
+r w b r y
 
 Puzzle 41 answer:
 
@@ -2644,64 +2644,64 @@ e r y r r
 b b r b r
 w r y w b
 
-r e y r r
-b b r b r
-w r y w b
-
-r b y r r
-b e r b r
-w r y w b
-
-r b y r r
+b r y r r
 e b r b r
 w r y w b
 
-r b y r r
+b r y r r
 w b r b r
 e r y w b
 
-r b y r r
+b r y r r
 w b r b r
 r e y w b
 
-r b y r r
+b r y r r
 w b r b r
 r y e w b
 
-r b y r r
+b r y r r
 w b e b r
 r y r w b
 
-r b y r r
+b r y r r
 w e b b r
 r y r w b
 
+b r y r r
+e w b b r
+r y r w b
+
+e r y r r
+b w b b r
+r y r w b
+
 r e y r r
-w b b b r
+b w b b r
 r y r w b
 
 r y e r r
-w b b b r
+b w b b r
 r y r w b
 
 r y r e r
-w b b b r
+b w b b r
 r y r w b
 
 r y r b r
-w b b e r
+b w b e r
 r y r w b
 
 r y r b r
-w b b w r
+b w b w r
 r y r e b
 
 r y r b r
-w b b w r
+b w b w r
 r y r b e
 
 r y r b r
-w b b w e
+b w b w e
 r y r b r
 
 Puzzle 46 answer:
@@ -2714,8 +2714,8 @@ y r r r r
 y b r e w
 b b b r w
 
-y r r r r
-y b e r w
+y r r e r
+y b r r w
 b b b r w
 
 y r e r r
@@ -2758,8 +2758,8 @@ y b r r r
 b b e r w
 y b r r w
 
-y b r r r
-b b r e w
+y b e r r
+b b r r w
 y b r r w
 
 y b r e r
@@ -2784,24 +2784,24 @@ b y w b w
 b r r r e
 r b r y r
 
-b y w b w
-b r r e r
+b y w b e
+b r r r w
 r b r y r
 
-b y w e w
-b r r b r
+b y w e b
+b r r r w
 r b r y r
 
-b y w w e
-b r r b r
+b y w r b
+b r r e w
 r b r y r
 
-b y w w r
-b r r b e
+b y w r b
+b r r w e
 r b r y r
 
-b y w w r
-b r r e b
+b y w r e
+b r r w b
 r b r y r
 
 b y w e r
@@ -2925,8 +2925,8 @@ b y r e b
 y w r r b
 
 r b r w r
-b y e r b
-y w r r b
+b y r r b
+y w r e b
 
 r b r w r
 b y r r b
@@ -2983,40 +2983,40 @@ b r r b b
 y e r r r
 
 w w r y b
-b r r b b
-e y r r r
-
-w w r y b
-e r r b b
-b y r r r
-
-e w r y b
-w r r b b
-b y r r r
+b e r b b
+y r r r r
 
 w e r y b
-w r r b b
-b y r r r
+b w r b b
+y r r r r
+
+w r e y b
+b w r b b
+y r r r r
 
 w r r y b
-w e r b b
-b y r r r
+b w e b b
+y r r r r
 
 w r r y b
-w y r b b
-b e r r r
+b w r b b
+y r e r r
 
 w r r y b
-w y r b b
-e b r r r
+b w r b b
+y e r r r
 
 w r r y b
-e y r b b
-w b r r r
+b e r b b
+y w r r r
 
 w r r y b
-y e r b b
-w b r r r
+e b r b b
+y w r r r
+
+w r r y b
+y b r b b
+e w r r r
 
 w r r y b
 y b r b b

@@ -35,11 +35,9 @@ def solve(file_name, strategy):
 
             print(puzzle)
             initial_node = parse(puzzle)
-            open_list = HeapQueue()
-            open_list.push(1, initial_node)
 
             start_time = time.time()
-            path = solver.search(open_list,set([initial_node]), set([]))
+            path = solver.search(initial_node)
             solve_time= time.time() - start_time
             total_time += solve_time
 
@@ -65,17 +63,20 @@ def parse(file_line):
 
     return Node(initial_state, empty_index, 0)
 
-
-
 class ASearch():
 
     def __init__(self, strategy):
         self.heuristic = strategy
 
 
-    def search(self, open_heap, open_set, closed_set):
-
+    def search(self, initial_node):
+        #set up lists
         path = []
+        open_heap = HeapQueue()
+        open_heap.push(1, initial_node)
+        open_set = set([initial_node])
+        closed_set = set([])
+
         # for each element in the open list
         while len(open_heap) != 0:
             # remove from heap and set
@@ -94,10 +95,7 @@ class ASearch():
                     if child in closed_set or child in open_set:
                         continue
                     #run heuristic and add to open list
-                    key = self.heuristic.analyze(child) #+ child.path_length
-                    #print(str(key))
-                    key = key + child.path_length
-                    #print("--Debug: Adding to open list with key " + str(key))
+                    key = self.heuristic.analyze(child) + child.path_length
                     open_heap.push(key, child)
                     open_set.add(child)
 

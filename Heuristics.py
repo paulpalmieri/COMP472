@@ -1,5 +1,3 @@
-from automatic_solve import Node
-from collections import deque
 
 class Strategy:
 
@@ -21,7 +19,7 @@ def matching(node):
 
     return value
 
-def matching_plus_local_manhattan(node):
+def local_manhattan(node):
     value = 10
     adjacency_list = [[1,5], [0,6,2], [1,7,3], [2,8,4], [3,9],
                       [0,6,10], [1,5,7,11], [2,6,12,8], [3,7,13,9], [4,8,14],

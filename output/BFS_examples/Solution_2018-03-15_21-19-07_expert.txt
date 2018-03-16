@@ -1,43 +1,43 @@
 bbygrrpegwwrypr
 Solution = GBAFKLMNIHMLG
-Time to solve: 0.02408
+Time to solve: 0.49074
 
 gbgywpbrwerprry
 Solution = INOJIHCBAFKLGHMLG
-Time to solve: 0.10043
+Time to solve: 4.85832
 
 wrybrrgpeygbwrp
 Solution = JONMLKFABGHINMH
-Time to solve: 0.03183
+Time to solve: 3.10272
 
 brwpggprrbwyrey
 Solution = MLGBCDIJONMHGFABCHIJEDI
-Time to solve: 3.37948
+Time to solve: 142.06497
 
 rpwrbbypgeygrrw
 Solution = EDCBGHMLGFABCHIJEDCH
-Time to solve: 0.95732
+Time to solve: 32.58663
 
 yyerrwbpwgbgrrp
-Solution = HIJONMHGFABGHCBGLKF
-Time to solve: 0.73409
+Solution = HGFABGHIJONMHCBGLKF
+Time to solve: 21.37769
 
 gbrbppyreywgrwr
 Solution = DCHIJEDCHINMHCBGFKLMH
-Time to solve: 1.94079
+Time to solve: 57.41065
 
 rgrgrpbewpyrbyw
 Solution = IDCHIJEDCBGFKLMHINOJ
-Time to solve: 1.07022
+Time to solve: 61.03987
 
 ebyrpygrrbwrpgw
-Solution = BCHINMLKFABGHIJONMHGLMH
-Time to solve: 3.64550
+Solution = BCHINMHIJONMLKFABCHGLMH
+Time to solve: 169.35814
 
 pybygrgwbrerwrp
 Solution = LGBAFGHCBGLMHIDCHIJEDI
-Time to solve: 1.94862
+Time to solve: 104.05864
 
 
-Total Time: 13.83236
+Total Time: 596.34837
 Total Moves: 193

@@ -391,48 +391,48 @@ w b e w g
 b g r r p
 
 y y p r r
-w b w e g
+w e b w g
 b g r r p
 
 y y p r r
-w b w g e
+e w b w g
 b g r r p
-
-y y p r r
-w b w g p
-b g r r e
-
-y y p r r
-w b w g p
-b g r e r
-
-y y p r r
-w b w g p
-b g e r r
-
-y y p r r
-w b e g p
-b g w r r
-
-y y p r r
-w e b g p
-b g w r r
-
-y y p r r
-e w b g p
-b g w r r
 
 e y p r r
-y w b g p
-b g w r r
+y w b w g
+b g r r p
 
 y e p r r
-y w b g p
-b g w r r
+y w b w g
+b g r r p
 
 y w p r r
-y e b g p
-b g w r r
+y e b w g
+b g r r p
+
+y w p r r
+y b e w g
+b g r r p
+
+y w p r r
+y b w e g
+b g r r p
+
+y w p r r
+y b w g e
+b g r r p
+
+y w p r r
+y b w g p
+b g r r e
+
+y w p r r
+y b w g p
+b g r e r
+
+y w p r r
+y b w g p
+b g e r r
 
 y w p r r
 y b e g p
@@ -669,72 +669,72 @@ y g r g b
 w r e p w
 
 b y r r p
-y g r g b
-w e r p w
+y g e g b
+w r r p w
 
 b y r r p
-y g r g b
-e w r p w
+y g g e b
+w r r p w
 
 b y r r p
-e g r g b
-y w r p w
+y g g b e
+w r r p w
+
+b y r r p
+y g g b w
+w r r p e
+
+b y r r p
+y g g b w
+w r r e p
+
+b y r r p
+y g g b w
+w r e r p
+
+b y r r p
+y g g b w
+w e r r p
+
+b y r r p
+y g g b w
+e w r r p
+
+b y r r p
+e g g b w
+y w r r p
 
 e y r r p
-b g r g b
-y w r p w
+b g g b w
+y w r r p
 
 y e r r p
-b g r g b
-y w r p w
+b g g b w
+y w r r p
 
-y g r r p
-b e r g b
-y w r p w
+y r e r p
+b g g b w
+y w r r p
 
-y g r r p
-b r e g b
-y w r p w
+y r g r p
+b g e b w
+y w r r p
 
-y g r r p
-b r g e b
-y w r p w
+y r g r p
+b e g b w
+y w r r p
 
-y g r r p
-b r g b e
-y w r p w
+y r g r p
+b w g b w
+y e r r p
 
-y g r r p
-b r g b w
-y w r p e
+y r g r p
+b w g b w
+y r e r p
 
-y g r r p
-b r g b w
-y w r e p
-
-y g r r p
-b r g b w
-y w e r p
-
-y g r r p
-b r e b w
-y w g r p
-
-y g r r p
-b e r b w
-y w g r p
-
-y g r r p
-b w r b w
-y e g r p
-
-y g r r p
-b w r b w
-y g e r p
-
-y g r r p
+y r g r p
 b w e b w
-y g r r p
+y r g r p
 
 Puzzle 10 answer:
 
