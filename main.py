@@ -26,7 +26,7 @@ if __name__ == '__main__':
             print('No file has been specified, loading default input file for auto play.')
             file_name = default_input
 
-        heuristic = Strategy(matching)
+        heuristic = Strategy(matching_plus_local_manhattan)
         solve(file_name, heuristic)
 
 

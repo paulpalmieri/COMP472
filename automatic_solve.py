@@ -22,8 +22,8 @@ char_map = {
 def solve(file_name, strategy):
 
     time_stamp = time.strftime("%Y-%m-%d_%H-%M-%S")
-    output_file = "output/Solution_" + time_stamp
-    answer_file = "output/Answer_" + time_stamp
+    output_file = "output/Solution_" + time_stamp + ".txt"
+    answer_file = "output/Answer_" + time_stamp + ".txt"
     solver = ASearch(strategy)
     total_moves = 0
     total_time = 0
@@ -95,7 +95,9 @@ class ASearch():
                         continue
                     #run heuristic and add to open list
                     key = self.heuristic.analyze(child) #+ child.path_length
-                    print("--Debug: Adding to open list with key " + str(key))
+                    #print(str(key))
+                    key = key + child.path_length
+                    #print("--Debug: Adding to open list with key " + str(key))
                     open_heap.push(key, child)
                     open_set.add(child)
 
