@@ -26,36 +26,31 @@ def solve(file_name, strategy):
     answer_file = "output/Answer_" + time_stamp + ".txt"
     solver = ASearch(strategy)
     total_moves = 0
-    total_time = 0
     puzzle_counter = 0
+
+    start_time = time.time()
 
     with open(file_name) as f:
         for puzzle in f:
-            puzzle_counter += 1
 
-            print(puzzle)
+            puzzle_start_time = time.time()
+            puzzle_counter += 1
             initial_node = parse(puzzle)
 
-            start_time = time.time()
             path = solver.search(initial_node)
-            solve_time= time.time() - start_time
-            total_time += solve_time
 
             print("Puzzle {} solved".format(puzzle_counter))
             with open (output_file, 'a') as s, open (answer_file, 'a') as a:
                 a.write("Puzzle {} answer:\n\n".format(puzzle_counter))
                 a.write(initial_node.print() + "\n\n")
-                s.write(initial_node.state)
-                s.write("\nSolution = ")
                 for node in path:
                     s.write(char_map[node.previous_move][0])
                     total_moves += 1
                     a.write(node.print()+"\n\n")
-                s.write("\nTime to solve: {:.5f}".format(solve_time))
-                s.write("\n\n")
+                s.write("\n{:.5f}\n".format((time.time() - puzzle_start_time)))
 
         with open (output_file, 'a') as s:
-            s.write("\nTotal Time: {:.5f}\nTotal Moves: {}".format(total_time, total_moves))
+            s.write("\n\nTotal Time: {:.5f}\nTotal Moves: {}".format((time.time() - start_time), total_moves))
 
 def parse(file_line):
     initial_state = file_line.rstrip().replace(" ","")
