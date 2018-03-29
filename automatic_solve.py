@@ -47,7 +47,7 @@ def solve(file_name, strategy):
                     s.write(char_map[node.previous_move][0])
                     total_moves += 1
                     a.write(node.print()+"\n\n")
-                s.write("\n{:.5f}\n".format((time.time() - puzzle_start_time)))
+                s.write("\n{:.0f}ms\n".format(((time.time() - puzzle_start_time)*1000)))
 
         with open (output_file, 'a') as s:
             s.write("\n\nTotal Time: {:.5f}\nTotal Moves: {}".format((time.time() - start_time), total_moves))
