@@ -1,4 +1,4 @@
-from heapWrapper import HeapQueue
+from auto_solve.heap_wrapper import HeapQueue
 import time
 
 char_map = {
@@ -19,53 +19,20 @@ char_map = {
     14: 'O'
 }
 
-def solve(file_name, strategy):
-
-    time_stamp = time.strftime("%Y-%m-%d_%H-%M-%S")
-    output_file = "output/Solution_" + time_stamp + ".txt"
-    answer_file = "output/Answer_" + time_stamp + ".txt"
-    solver = ASearch(strategy)
-    total_moves = 0
-    puzzle_counter = 0
-
-    start_time = time.time()
-
-    with open(file_name) as f:
-        for puzzle in f:
-
-            puzzle_start_time = time.time()
-            puzzle_counter += 1
-            initial_node = parse(puzzle)
-
-            path = solver.search(initial_node)
-
-            print("Puzzle {} solved".format(puzzle_counter))
-            with open (output_file, 'a') as s, open (answer_file, 'a') as a:
-                a.write("Puzzle {} answer:\n\n".format(puzzle_counter))
-                a.write(initial_node.print() + "\n\n")
-                for node in path:
-                    s.write(char_map[node.previous_move][0])
-                    total_moves += 1
-                    a.write(node.print()+"\n\n")
-                s.write("\n{:.0f}ms\n".format(((time.time() - puzzle_start_time)*1000)))
-
-        with open (output_file, 'a') as s:
-            s.write("\n\nTotal Time: {:.5f}\nTotal Moves: {}".format((time.time() - start_time), total_moves))
 
 def parse(file_line):
-    initial_state = file_line.rstrip().replace(" ","")
+    initial_state = file_line.rstrip().replace(" ", "")
     empty_index = initial_state.find('e')
 
     return Node(initial_state, empty_index, 0)
 
-class ASearch():
 
+class ASearch:
     def __init__(self, strategy):
         self.heuristic = strategy
 
-
     def search(self, initial_node):
-        #set up lists
+        # set up lists
         path = []
         open_heap = HeapQueue()
         open_heap.push(1, initial_node)
@@ -78,24 +45,24 @@ class ASearch():
             node = open_heap.pop()
             open_set.remove(node)
 
-            #check if goal state
+            # check if goal state
             if not node.check_goal_state():
 
-                #add state to closed list
+                # add state to closed list
                 closed_set.add(node)
 
-                #expand node
+                # expand node
                 for child in node.expand():
-                    #check not in closed or open lists
+                    # check not in closed or open lists
                     if child in closed_set or child in open_set:
                         continue
-                    #run heuristic and add to open list
+                    # run heuristic and add to open list
                     key = self.heuristic.analyze(child) + child.path_length
                     open_heap.push(key, child)
                     open_set.add(child)
 
             else:
-                #build path in reverse, does not include root
+                # build path in reverse, does not include root
                 while node.previous_node is not None:
                     path.insert(0, node)
                     node = node.previous_node
@@ -107,9 +74,7 @@ class ASearch():
         return path
 
 
-
-class Node():
-
+class Node:
     COLS = 5
     string_map = {
         0: (0, 0),
@@ -129,7 +94,7 @@ class Node():
         14: (2, 4)
     }
 
-    def __init__(self, initial_state, empty_index, path_length, previous_node = None):
+    def __init__(self, initial_state, empty_index, path_length, previous_node=None):
         self.state = str(initial_state)
         self.empty_index = empty_index
         self.path_length = path_length
@@ -145,21 +110,18 @@ class Node():
         else:
             return False
 
-
     def check_goal_state(self):
 
         for i in range(Node.COLS):
-            if (self.state[i] != self.state[i+(2*Node.COLS)]):
+            if (self.state[i] != self.state[i + (2 * Node.COLS)]):
                 return False
 
         return True
 
-
     def expand(self):
-
         children_list = []
         empty_row, empty_col = Node.string_map[self.empty_index][0], Node.string_map[self.empty_index][1]
-        #find valid moves
+        # find valid moves
         up = empty_row - 1 >= 0
         down = empty_row + 1 <= 2
         left = empty_col - 1 >= 0
@@ -180,18 +142,46 @@ class Node():
         if right:
             move_index = self.empty_index + 1
             children_list.append(self.move(move_index))
-
         return children_list
 
-
-    def move(self,move_index):
-
+    def move(self, move_index):
         string_copy = [character for character in self.state]
         string_copy[self.empty_index], string_copy[move_index] = string_copy[move_index], 'e'
-
         return Node("".join(string_copy), move_index, (self.path_length + 1), self)
 
-    def print(self):
-
+    def tostr(self):
         return " ".join(self.state[:5]) + "\n" + " ".join(self.state[5:10]) + "\n" + " ".join(self.state[10:])
 
+
+def solve(file_name, strategy):
+    time_stamp = time.strftime("%Y-%m-%d_%H-%M-%S")
+    output_file = "output/Solution_" + time_stamp + ".txt"
+    answer_file = "output/Answer_" + time_stamp + ".txt"
+    solver = ASearch(strategy)
+    total_moves = 0
+    puzzle_counter = 0
+
+    start_time = time.time()
+
+    with open(file_name) as f:
+        for puzzle in f:
+
+            puzzle_start_time = time.time()
+            puzzle_counter += 1
+            initial_node = parse(puzzle)
+
+            path = solver.search(initial_node)
+            print("Puzzle {} solved".format(puzzle_counter))
+
+            with open(output_file, 'a') as s, open(answer_file, 'a') as a:
+                a.write("Puzzle {} answer:\n\n".format(puzzle_counter))
+                a.write(initial_node.tostr() + "\n\n")
+                for node in path:
+                    s.write(char_map[node.previous_move][0])
+                    total_moves += 1
+                    a.write(node.tostr() + "\n\n")
+
+                s.write("\n{:.0f}ms\n".format(((time.time() - puzzle_start_time) * 1000)))
+
+        with open(output_file, 'a') as s:
+            s.write("\n\nTotal Time: {:.5f}\nTotal Moves: {}".format((time.time() - start_time), total_moves))

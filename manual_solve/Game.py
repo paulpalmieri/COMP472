@@ -1,9 +1,9 @@
 from itertools import product
-from util import letter_to_index_map, letter_list, OUTPUT_PATH
+from auto_solve.util import letter_to_index_map, letter_list, OUTPUT_PATH
 import time
 
-class Game:
 
+class Game():
     rows, cols = 3, 5
 
     def __init__(self, initial_config):
@@ -30,7 +30,7 @@ class Game:
     # returns an uppercase letter indicating the position of the empty tile
     def init_empty_tile(self):
         for i, j in product(range(Game.rows), range(Game.cols)):
-            if(self.game_grid[i][j] == 'e'):
+            if (self.game_grid[i][j] == 'e'):
                 return i, j, letter_list[i][j]
 
     # attempts to make a move
@@ -55,12 +55,10 @@ class Game:
             # update legal moves
             self.possible_moves = self.get_legal_moves()
 
-
-
     # checks for symmetry on first and last row
     def goal_state_reached(self):
         for i in range(self.cols):
-            if(self.game_grid[0][i] != self.game_grid[2][i]):
+            if (self.game_grid[0][i] != self.game_grid[2][i]):
                 return False
         return True
 
