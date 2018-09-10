@@ -1,6 +1,8 @@
 from itertools import product
 from string import ascii_uppercase
 
+OUTPUT_PATH = "output/"
+
 # candy types and colors
 TYPES = {
     'r': 'orange',
@@ -11,14 +13,6 @@ TYPES = {
     'p': 'green',
     'e': 'gray17'
 }
-
-# key codes for user input
-# KEY_CODES = {
-#     65362: 'UP',
-#     65361: 'LEFT',
-#     65363: 'RIGHT',
-#     65364: 'DOWN'
-# }
 
 KEY_SET = {
     97: 'A',
@@ -38,7 +32,6 @@ KEY_SET = {
     111: 'O'
 }
 
-OUTPUT_PATH = "output/"
 
 # maps uppercase letters to a grid index tuple (x, y)
 def get_letter_to_index_map():
@@ -49,9 +42,11 @@ def get_letter_to_index_map():
         k += 1
     return position_dict
 
+
 # generates a list of positional letters (3x5 with 15 uppercase letters)
 def get_index_to_letter_list():
     return [list(ascii_uppercase[0:5]), list(ascii_uppercase[5:10]), list(ascii_uppercase[10:15])]
+
 
 # reads a file and generates a list containing the first line
 def load_single_game(file_name):

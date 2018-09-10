@@ -1,7 +1,7 @@
 import heapq
 
 
-class HeapQueue():
+class HeapQueue:
     counter = 0
 
     def __init__(self):

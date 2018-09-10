@@ -1,9 +1,9 @@
 import tkinter as tk
-from util import TYPES, KEY_SET
+from auto_solve.util import TYPES, KEY_SET
 from itertools import product
-from Game import Game
 
-class GameGUI():
+
+class GameGUI:
 
     # takes a game instance and a tk.TopLevel obj
     def __init__(self, game):
@@ -81,7 +81,7 @@ class GameGUI():
     def update_game_panel(self):
         print('updating gp')
         for i,j in product(range(3), range(5)):
-            if(self.game_grid[i][j].cget('text') != self.game.game_grid[i][j]):
+            if self.game_grid[i][j].cget('text') != self.game.game_grid[i][j]:
                 self.game_grid[i][j].config(text=self.game.game_grid[i][j])
                 self.game_grid[i][j].config(bg=TYPES[self.game.game_grid[i][j]])
 

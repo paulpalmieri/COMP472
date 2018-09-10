@@ -1,8 +1,8 @@
-from GameGUI import GameGUI
-from Game import Game
-from util import load_single_game
-from Heuristics import *
-from automatic_solve import solve
+from manual_solve.GameGUI import GameGUI
+from manual_solve.Game import Game
+from auto_solve.util import load_single_game
+from auto_solve.heuristics import *
+from auto_solve.automatic_solve import solve
 import argparse
 
 default_input = 'input/input.txt'
@@ -15,15 +15,15 @@ if __name__ == '__main__':
     parser.add_argument("-file", "-f", help="path to the input file containing the grid(s) to solve")
     args = parser.parse_args()
 
-    # todo automatic mode
+    # auto play
     if args.automatic:
         print('Automatic mode has been selected.')
 
         if args.file:
-            print('A file has been specified.')
+            print('An input file has been specified: ' + args.file)
             file_name = args.file
         else:
-            print('No file has been specified, loading default input file for auto play.')
+            print('No input file has been specified, loading default input file for auto solver.')
             file_name = default_input
 
         heuristic = Strategy(local_manhattan)
@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
 
 
-    # MANUAL MODE
+    # manual play
     elif args.manual:
         print("Manual mode has been selected.")
 
